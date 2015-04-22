@@ -393,6 +393,39 @@
                                org.wso2.carbon:org.wso2.carbon.identity.application.mgt.feature:4.2.1
                            </featureArtifactDef>
                            <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.relying.party.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.user.profile.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.authenticator.saml2.sso.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef> 
+                            org.wso2.carbon:org.wso2.carbon.identity.authenticator.saml2.sso.ui.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.core.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.provider.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.oauth.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.application.authenticator.basicauth.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.application.authenticator.samlsso.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                            org.wso2.carbon:org.wso2.carbon.idp.mgt.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
                                org.wso2.carbon:org.wso2.carbon.identity.application.mgt.server.feature:4.2.1
                            </featureArtifactDef>
 
@@ -1807,6 +1840,7 @@
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.170}
                                 </featureArtifactDef>
+                                <!--
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.gateway-manager.nested.category.feature:${apim.version.180}
                                 </featureArtifactDef>
@@ -1822,6 +1856,7 @@
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.180}
                                 </featureArtifactDef>
+                            -->
                                 <featureArtifactDef>
                                     org.wso2.dss:org.wso2.dss.dataservices-hosting.nested.category.feature:${dss.version}
                                 </featureArtifactDef>
@@ -3155,6 +3190,7 @@
                                     </features>
                                 </category>
                                    <!--Start of AM 1.8.0 feature categories-->
+                                   <!--
      							 <category>
                                     <id>org.wso2.apimgt.category.180</id>
                                     <label>API Manager 1.8.0</label>
@@ -3183,7 +3219,40 @@
                                         </catFeature>
                                     </features>
                                 </category>
+                            -->
  								<!--End of AM 1.8.0 feature categories-->
+
+                            <!--Start of AM 1.9.0 feature categories-->
+                                 <category>
+                                    <id>org.wso2.apimgt.category.180</id>
+                                    <label>API Manager 1.9.0</label>
+                                    <description>This category contains features required for WSO2 API Manager 1.9.0
+                                    </description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.gateway-manager.nested.category</id>
+                                            <version>${apim.version.190}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.gateway-worker.nested.category</id>
+                                            <version>${apim.version.190}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.keymanager.nested.category</id>
+                                            <version>${apim.version.190}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.publisher.nested.category</id>
+                                            <version>${apim.version.190}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.store.nested.category</id>
+                                            <version>${apim.version.190}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+                            
+                                <!--End of AM 1.9.0 feature categories-->
                                 <!--Start of DSS feature categories-->
                                 <category>
                                     <id>org.wso2.dss.category.310</id>
@@ -4901,6 +4970,7 @@
         <apim.version.160>1.6.0</apim.version.160>
         <apim.version.170>1.7.0</apim.version.170>
         <apim.version.180>1.8.0</apim.version.180>
+        <apim.version.190>1.9.0-SNAPSHOT</apim.version.190>
         <dss.version>3.1.0</dss.version>
         <dss.version.311>3.1.1</dss.version.311>
         <dss.version.320>3.2.0</dss.version.320>
@@ -4911,6 +4981,7 @@
         <brs.version>2.1.0</brs.version>
         <esb.version>4.8.0</esb.version>
         <esb.version.481>4.8.1</esb.version.481>
+        <identity.425>4.2.5-SNAPSHOT</identity.425>
         <ss.version.110>1.1.0</ss.version.110>
         <mb.version>2.2.0</mb.version>
         <!-- Stratos Version -->
@@ -4925,6 +4996,7 @@
         <carbon.patchrelease.version.421>4.2.1</carbon.patchrelease.version.421>
         <carbon.patchrelease.version.422>4.2.2</carbon.patchrelease.version.422>
         <carbon.patchrelease.version.423>4.2.3</carbon.patchrelease.version.423>
+        <synapse.version>2.1.1-wso2v8</synapse.version>
         <synapse.2.1.1-wso2v9>2.1.1-wso2v9</synapse.2.1.1-wso2v9>
         <synapse.2.1.2-wso2v1>2.1.2-wso2v1</synapse.2.1.2-wso2v1>
         <synapse.2.1.2-wso2v5>2.1.2-wso2v5</synapse.2.1.2-wso2v5>
