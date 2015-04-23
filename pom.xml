@@ -393,9 +393,6 @@
                                org.wso2.carbon:org.wso2.carbon.identity.application.mgt.feature:4.2.1
                            </featureArtifactDef>
                            <featureArtifactDef>
-                            org.wso2.carbon:org.wso2.carbon.identity.relying.party.server.feature:${identity.425}
-                           </featureArtifactDef>
-                           <featureArtifactDef>
                             org.wso2.carbon:org.wso2.carbon.identity.user.profile.feature:${identity.425}
                            </featureArtifactDef>
                            <featureArtifactDef>
@@ -959,8 +956,11 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.relying.party.server.feature:${carbon.patchrelease.version.421}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.relying.party.server.feature:4.2.2
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.relying.party.server.feature:${identity.425}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.relying.party.ui.feature:${carbon.platform.version}
