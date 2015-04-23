@@ -22,7 +22,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>wso2carbon-feature-repository</artifactId>
-    <version>4.2.12</version>
+    <version>4.2.13</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Feature Repository</name>
 
@@ -1857,6 +1857,21 @@
                                     org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.180}
                                 </featureArtifactDef>
                             -->
+                                <featureArtifactDef>
+                                    org.wso2.am:org.wso2.apimgt.gateway-manager.nested.category.feature:${apim.version.190}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.am:org.wso2.apimgt.gateway-worker.nested.category.feature:${apim.version.190}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.am:org.wso2.apimgt.keymanager.nested.category.feature:${apim.version.190}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.am:org.wso2.apimgt.publisher.nested.category.feature:${apim.version.190}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.190}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.dss:org.wso2.dss.dataservices-hosting.nested.category.feature:${dss.version}
                                 </featureArtifactDef>
