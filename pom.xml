@@ -932,9 +932,6 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.feature:4.2.4
                                 </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon:org.wso2.carbon.identity.provider.feature:${identity.425}
-                                </featureArtifactDef>
 				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.server.feature:${carbon.platform.version}
                                 </featureArtifactDef>
@@ -949,6 +946,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.server.feature:4.2.4
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.provider.server.feature:${identity.425}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.ui.feature:${carbon.platform.version}
