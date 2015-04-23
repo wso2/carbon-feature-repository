@@ -1201,7 +1201,7 @@
                                     org.wso2.carbon:org.wso2.carbon.apimgt.core.feature:1.2.3
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon:org.wso2.carbon.apimgt.core.feature:${apimgt.core.version}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.core.feature:${apimgt.core.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.apimgt.gateway.feature:${apim.version}
