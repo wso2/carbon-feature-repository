@@ -420,9 +420,6 @@
                             org.wso2.carbon:org.wso2.carbon.identity.application.authenticator.samlsso.server.feature:${identity.425}
                            </featureArtifactDef>
                            <featureArtifactDef>
-                            org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:${identity.425}
-                           </featureArtifactDef>
-                           <featureArtifactDef>
                             org.wso2.carbon:org.wso2.carbon.idp.mgt.feature:${identity.425}
                            </featureArtifactDef>
                            <featureArtifactDef>
@@ -935,6 +932,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.feature:4.2.4
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.provider.feature:${identity.425}
+                                </featureArtifactDef>
 				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provider.server.feature:${carbon.platform.version}
                                 </featureArtifactDef>
@@ -971,21 +971,24 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.relying.party.feature:${carbon.patchrelease.version.421}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.relying.party.feature:4.2.2
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:${carbon.platform.version}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:4.2.1
                                 </featureArtifactDef>
-				<featureArtifactDef>
+				                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:4.2.2
-        </featureArtifactDef>
-        <featureArtifactDef>
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:4.2.3
-        </featureArtifactDef>
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.application.authentication.framework.server.feature:${identity.425}
+                                </featureArtifactDef>
 				<featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.provisioning.server.feature:4.2.0
                                 </featureArtifactDef>
@@ -1198,6 +1201,9 @@
                                     org.wso2.carbon:org.wso2.carbon.apimgt.core.feature:1.2.3
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.apimgt.core.feature:${apimgt.core.version}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.apimgt.gateway.feature:${apim.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1382,6 +1388,9 @@
 
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.apache.synapse.wso2.feature:${synapse.2.1.2-wso2v1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.apache.synapse.wso2.feature:${synapse.2.1.2-wso2v7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.apache.synapse.transport.nhttp.feature:${synapse.2.1.2-wso2v1}
@@ -4997,6 +5006,7 @@
         <esb.version>4.8.0</esb.version>
         <esb.version.481>4.8.1</esb.version.481>
         <identity.425>4.2.5-SNAPSHOT</identity.425>
+        <apimgt.core.version>1.2.4-SNAPSHOT</apimgt.core.version>
         <ss.version.110>1.1.0</ss.version.110>
         <mb.version>2.2.0</mb.version>
         <!-- Stratos Version -->
@@ -5015,6 +5025,7 @@
         <synapse.2.1.1-wso2v9>2.1.1-wso2v9</synapse.2.1.1-wso2v9>
         <synapse.2.1.2-wso2v1>2.1.2-wso2v1</synapse.2.1.2-wso2v1>
         <synapse.2.1.2-wso2v5>2.1.2-wso2v5</synapse.2.1.2-wso2v5>
+        <synapse.2.1.2-wso2v7>2.1.2-wso2v7-SNAPSHOT</synapse.2.1.2-wso2v7>
         <esb.synapse.version>2.1.2-wso2v2</esb.synapse.version>
         <esb.481.synapse.version>2.1.2-wso2v4</esb.481.synapse.version>
         <cep.version.310>3.1.0</cep.version.310>
