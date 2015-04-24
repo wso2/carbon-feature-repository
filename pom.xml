@@ -1585,6 +1585,9 @@
 				<featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.sts.mgt.feature:${carbon.platform.version}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.sts.mgt.feature:${identity.425}
+                                </featureArtifactDef>
 				<featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.sts.mgt.server.feature:${carbon.platform.version}
                                 </featureArtifactDef>
@@ -2509,7 +2512,7 @@
                                     org.wso2.carbon:org.wso2.carbon.bam.service.agent.feature:${carbon.patchrelease.version.421}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon:org.wso2.carbon.bam.service.agent.feature:${bam.agent.423}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.bam.service.agent.feature:${bam.agent.423}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.logging.mgt.feature:4.2.2
