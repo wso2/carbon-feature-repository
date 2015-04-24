@@ -2509,6 +2509,9 @@
                                     org.wso2.carbon:org.wso2.carbon.bam.service.agent.feature:${carbon.patchrelease.version.421}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.bam.service.agent.feature:${bam.agent.423}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.logging.mgt.feature:4.2.2
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -5000,6 +5003,7 @@
         <dss.version.320>3.2.0</dss.version.320>
         <dss.version.321>3.2.1</dss.version.321>
         <dss.version.322>3.2.2</dss.version.322>
+        <bam.agent.423>4.2.3-SNAPSHOT</bam.agent.423>
         <bps.version>3.1.0</bps.version>
         <bps.version.320>3.2.0</bps.version.320>
         <brs.version>2.1.0</brs.version>
