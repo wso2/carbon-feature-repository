@@ -39,6 +39,13 @@
         <tag>HEAD</tag>
     </scm>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>wso2-maven2-repository</id>
+            <url>http://dist.wso2.org/maven2</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <url>http://wso2.org</url>
 
     <build>
