@@ -396,8 +396,17 @@
 				<featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.application.mgt.server.feature:4.2.0
                                 </featureArtifactDef>
-			<featureArtifactDef>
+			               <featureArtifactDef>
                                org.wso2.carbon:org.wso2.carbon.identity.application.mgt.feature:4.2.1
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                               org.wso2.carbon:org.wso2.carbon.identity.application.mgt.feature:${identity.425}
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                               org.wso2.carbon:org.wso2.carbon.identity.application.mgt.server.feature:4.2.1
+                           </featureArtifactDef>
+                           <featureArtifactDef>
+                               org.wso2.carbon:org.wso2.carbon.identity.application.mgt.server.feature:${identity.425}
                            </featureArtifactDef>
                            <featureArtifactDef>
                             org.wso2.carbon:org.wso2.carbon.identity.user.profile.feature:${identity.425}
@@ -435,7 +444,10 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                      org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:4.2.1
-                                 </featureArtifactDef>
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                     org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:${identity.425}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.xacml.filter.feature:${carbon.platform.version}
                                 </featureArtifactDef>
