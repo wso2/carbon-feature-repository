@@ -53,6 +53,7 @@
             <plugin>
                 <groupId>org.wso2.maven</groupId>
                 <artifactId>carbon-p2-plugin</artifactId>
+		<version>1.5.3</version>
                 <executions>
                     <execution>
                         <id>2-p2-repo-generation</id>
@@ -444,9 +445,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                      org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:4.2.1
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                     org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:${identity.425}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.identity.xacml.filter.feature:${carbon.platform.version}
