@@ -1869,7 +1869,6 @@
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.170}
                                 </featureArtifactDef>
-                                <!--
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.gateway-manager.nested.category.feature:${apim.version.180}
                                 </featureArtifactDef>
@@ -1885,7 +1884,6 @@
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.store.nested.category.feature:${apim.version.180}
                                 </featureArtifactDef>
-                            -->
                                 <featureArtifactDef>
                                     org.wso2.am:org.wso2.apimgt.gateway-manager.nested.category.feature:${apim.version.190}
                                 </featureArtifactDef>
@@ -3237,7 +3235,6 @@
                                     </features>
                                 </category>
                                    <!--Start of AM 1.8.0 feature categories-->
-                                   <!--
      							 <category>
                                     <id>org.wso2.apimgt.category.180</id>
                                     <label>API Manager 1.8.0</label>
@@ -3266,12 +3263,11 @@
                                         </catFeature>
                                     </features>
                                 </category>
-                            -->
  								<!--End of AM 1.8.0 feature categories-->
 
                             <!--Start of AM 1.9.0 feature categories-->
                                  <category>
-                                    <id>org.wso2.apimgt.category.180</id>
+                                    <id>org.wso2.apimgt.category.190</id>
                                     <label>API Manager 1.9.0</label>
                                     <description>This category contains features required for WSO2 API Manager 1.9.0
                                     </description>
