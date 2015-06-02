@@ -5025,7 +5025,7 @@
         <brs.version>2.1.0</brs.version>
         <esb.version>4.8.0</esb.version>
         <esb.version.481>4.8.1</esb.version.481>
-        <identity.425>4.2.5-SNAPSHOT</identity.425>
+        <identity.425>4.2.6-SNAPSHOT</identity.425>
         <apimgt.core.version>1.2.4-SNAPSHOT</apimgt.core.version>
         <ss.version.110>1.1.0</ss.version.110>
         <mb.version>2.2.0</mb.version>
