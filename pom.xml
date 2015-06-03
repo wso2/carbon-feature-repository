@@ -95,31 +95,31 @@
                                     org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
+                                    org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:carbon.feature:${carbon.module.version.120}
+                                    org.jaggeryjs.modules:carbon.feature:${carbon.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:email.feature:${email.module.version.120}
+                                    org.jaggeryjs.modules:email.feature:${email.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:gadget.feature:${gadget.module.version.120}
+                                    org.jaggeryjs.modules:gadget.feature:${gadget.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:i18n.feature:${i18n.module.version.120}
+                                    org.jaggeryjs.modules:i18n.feature:${i18n.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:oauth.feature:${oauth.module.version.120}
+                                    org.jaggeryjs.modules:oauth.feature:${oauth.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:process.feature:${process.module.version.120}
+                                    org.jaggeryjs.modules:process.feature:${process.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:uuid.feature:${uuid.module.version.120}
+                                    org.jaggeryjs.modules:uuid.feature:${uuid.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                org.jaggeryjs.modules:ws.feature:${ws.module.version.120}
+                                    org.jaggeryjs.modules:ws.feature:${ws.module.version.120}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -349,7 +349,6 @@
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.user-mgt.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
-
 
                             </featureArtifacts>
 
