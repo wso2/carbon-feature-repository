@@ -59,6 +59,14 @@
         <carbon.registry.version.441>4.4.1</carbon.registry.version.441>
         <jaggery.version.0101>0.10.1</jaggery.version.0101>
         <as.version.600>6.0.0-SNAPSHOT</as.version.600>
+        <carbon.module.version.120>1.2.0</carbon.module.version.120>
+        <email.module.version.120>1.2.0</email.module.version.120>
+        <gadget.module.version.120>1.2.0</gadget.module.version.120>
+        <i18n.module.version.120>1.2.0</i18n.module.version.120>
+        <oauth.module.version.120>1.2.0</oauth.module.version.120>
+        <process.module.version.120>1.2.0</process.module.version.120>
+        <uuid.module.version.120>1.2.0</uuid.module.version.120>
+        <ws.module.version.120>1.2.0</ws.module.version.120>
 
     </properties>
 
@@ -82,38 +90,98 @@
                             <publishArtifactRepository>true</publishArtifactRepository>
                             <featureArtifacts>
 
+                                <!-- Jaggeryjs -->
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:${carbon.deployment.version.441}
+                                    org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.security.mgt.feature:${carbon.identity.version.450}
+                                org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:${carbon.commons.version.443}
+                                org.jaggeryjs.modules:carbon.feature:${carbon.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.as.runtimes.cxf.feature:${carbon.deployment.version.441}
+                                org.jaggeryjs.modules:email.feature:${email.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:gadget.feature:${gadget.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:i18n.feature:${i18n.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:oauth.feature:${oauth.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:process.feature:${process.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:uuid.feature:${uuid.module.version.120}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                org.jaggeryjs.modules:ws.feature:${ws.module.version.120}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.repomanager.axis2.feature:${carbon.deployment.version.441}
+                                    org.wso2.appserver:org.wso2.appserver.application-hosting.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.application-mgt.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.javaee-runtime.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.miscellaneous.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.monitoring.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.multi-tenancy.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.registry-repository.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.single-sign-on.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.styles.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.styling.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.tooling.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.user-mgt.nested.category.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.utils.feature:${as.version.600}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature:${as.version.600}
+                                </featureArtifactDef>
+
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.application.mgt.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.application.mgt.webapp.feature:${carbon.deployment.version.441}
+                                    org.wso2.carbon.commons:org.wso2.carbon.databridge.datapublisher.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.application.deployer.webapp.feature:${carbon.deployment.version.441}
+                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.javaee.tomee.server.feature:${carbon.deployment.version.441}
+                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.git.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.ntask.feature:${carbon.commons.version.443}
+                                    org.wso2.carbon.commons:org.wso2.carbon.discovery.admin.ui.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.discovery.core.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.event.common.feature:${carbon.commons.version.443}
@@ -125,124 +193,127 @@
                                     org.wso2.carbon.commons:org.wso2.carbon.event.ui.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.discovery.core.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.discovery.admin.ui.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.git.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.transaction.manager.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-
-                                <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.system.statistics.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.soaptracer.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.databridge.datapublisher.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.message.flows.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ndatasource.ui.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ntask.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.soaptracer.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.system.statistics.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.tenant.mgt.common.feature:${carbon.commons.version.443}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.transaction.manager.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.tryit.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.user.mgt.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.feature:${carbon.commons.version.443}
+                                </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.application.deployer.webapp.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.application.mgt.webapp.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.as.runtimes.cxf.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.bam.service.agent.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.bam.webapp.agent.feature:${carbon.deployment.version.441}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.bam.service.agent.feature:${carbon.deployment.version.441}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.identity.xacml.filter.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.javaee.tomee.server.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.repomanager.axis2.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:${carbon.deployment.version.441}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.claim.mgt.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authentication.framework.server.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.mgt.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.core.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.core.server.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.user.profile.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.xacml.ui.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.idp.mgt.feature:${carbon.identity.version.450}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.security.mgt.feature:${carbon.identity.version.450}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature:${carbon.multitenancy.version.441}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature:${carbon.multitenancy.version.441}
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature:${carbon.multitenancy.version.441}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.throttling.agent.feature:${carbon.multitenancy.version.441}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature:${carbon.multitenancy.version.441}
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature:${carbon.multitenancy.version.441}
                                 </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.feature:${carbon.registry.version.441}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.441}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.441}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.441}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.idp.mgt.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.claim.mgt.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.mgt.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authentication.framework.server.feature:${carbon.identity.version.450}
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.441}
                                 </featureArtifactDef>
 
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.tryit.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-
-                                <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.user.mgt.feature:${carbon.commons.version.443}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.identity.xacml.filter.feature:${carbon.deployment.version.441}
-                                </featureArtifactDef>
-                                <!--<featureArtifactDef>-->
-                                    <!--org.wso2.carbon:org.apache.synapse.wso2.feature:${synapse.version}-->
-                                <!--</featureArtifactDef>-->
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.user.profile.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.core.feature:${carbon.identity.version.450}
-                                </featureArtifactDef>
-
-
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.utils.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.styles.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature:${as.version.600}
-                                </featureArtifactDef>
-
-                                <!-- Jaggeryjs -->
-                                <featureArtifactDef>
-                                    org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
-                                </featureArtifactDef>
 
                                 <!-- Category Features(Nested) -->
                                 <featureArtifactDef>
@@ -278,9 +349,7 @@
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.user-mgt.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.feature:${carbon.registry.version.441}
-                                </featureArtifactDef>
+
 
                             </featureArtifacts>
 
