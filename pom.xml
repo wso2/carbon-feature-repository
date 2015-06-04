@@ -95,9 +95,6 @@
                                     org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.jaggeryjs:org.jaggeryjs.feature:${jaggery.version.0101}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.jaggeryjs.modules:carbon.feature:${carbon.module.version.120}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
