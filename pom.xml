@@ -161,7 +161,7 @@
                                     org.wso2.carbon.commons:org.wso2.carbon.tryit.feature:${carbon.commons.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.commons:org.wso2.carbon.user.mgt.feature:${c/home/nira/git/Nira/carbon-feature-repository/target/p2-repoarbon.commons.version.4.4.3}
+                                    org.wso2.carbon.commons:org.wso2.carbon.user.mgt.feature:${{carbon.commons.version.4.4.3}}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.wsdl.tools.feature:${carbon.commons.version.4.4.3}
