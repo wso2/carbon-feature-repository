@@ -55,11 +55,11 @@
         <carbon.identity.version.4.5.3>4.5.3</carbon.identity.version.4.5.3>
         <carbon.multitenancy.version.4.4.1>4.4.1</carbon.multitenancy.version.4.4.1>
         <carbon.registry.version.4.4.4>4.4.4</carbon.registry.version.4.4.4>
+        <carbon.registry.version.4.5.2>4.5.2</carbon.registry.version.4.5.2>
         <carbon.kernel.version>4.4.1</carbon.kernel.version>
         <jaggery.version.0.10.2>0.10.2</jaggery.version.0.10.2>
         <jaggery.modules.version.1.2.3>1.2.3</jaggery.modules.version.1.2.3>
         <carbon.mediation.version.4.4.4>4.4.3</carbon.mediation.version.4.4.4>
-        <carbon.governance.version.4.4.1>4.4.1</carbon.governance.version.4.4.1>
         <carbon.rule.version.4.4.0>4.4.0</carbon.rule.version.4.4.0>
         <axis2.transport.version.1.1.0v15>1.1.0-wso2v15</axis2.transport.version.1.1.0v15>
         <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
@@ -464,10 +464,10 @@
 
                                 <!--7 Carbon Governance -->
                                 <featureArtifactDef>
-                                    org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.server.feature:${carbon.governance.version.4.4.1}
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.server.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.4.1}
+                                    org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
 
                                 <!--8 Carbon-MultiTenancy-->
