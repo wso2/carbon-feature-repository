@@ -58,12 +58,14 @@
         <carbon.kernel.version>4.4.0</carbon.kernel.version>
         <jaggery.version.0.10.2>0.10.2</jaggery.version.0.10.2>
         <jaggery.modules.version.1.2.3>1.2.3</jaggery.modules.version.1.2.3>
-        <carbon.mediation.version.4.4.4>4.4.3-SNAPSHOT</carbon.mediation.version.4.4.4>
+        <carbon.mediation.version.4.4.4>4.4.3</carbon.mediation.version.4.4.4>
         <carbon.governance.version.4.4.1>4.4.1</carbon.governance.version.4.4.1>
-        <product.esb.version.beta>4.9.0-BETA-SNAPSHOT</product.esb.version.beta>
         <carbon.rule.version.4.4.0>4.4.0</carbon.rule.version.4.4.0>
-        <axis2.transport.version.1.1.0v15>1.1.0-wso2v15-SNAPSHOT</axis2.transport.version.1.1.0v15>
+        <axis2.transport.version.1.1.0v15>1.1.0-wso2v15</axis2.transport.version.1.1.0v15>
         <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
+        <!-- Need to uncomment this after esb release -->
+        <!--product.esb.version.490>4.9.0-GA</product.esb.version.490-->
+        
     </properties>
 
     <build>
@@ -489,12 +491,13 @@
                                 </featureArtifactDef>
 
                                 <!--9 ESB Specific-->
-                                <featureArtifactDef>
-                                    org.wso2.esb:org.wso2.esb.samples.feature:${product.esb.version.beta}
+                                <!-- Need to uncomment this after esb release -->
+                                <!--featureArtifactDef>
+                                    org.wso2.esb:org.wso2.esb.samples.feature:${product.esb.version.490}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.esb:org.wso2.esb.styles.feature:${product.esb.version.beta}
-                                </featureArtifactDef>
+                                    org.wso2.esb:org.wso2.esb.styles.feature:${product.esb.version.490}
+                                </featureArtifactDef-->
 
                                 <!--10 Carbon-rules-->
                                 <featureArtifactDef>
