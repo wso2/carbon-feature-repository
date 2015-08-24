@@ -5125,7 +5125,7 @@
         <esb.version>4.8.0</esb.version>
         <esb.version.481>4.8.1</esb.version.481>
         <identity.425>4.2.6</identity.425>
-        <identity.427>4.2.7-SNAPSHOT</identity.427>
+        <identity.427>4.2.7</identity.427>
         <apimgt.core.version>1.2.4</apimgt.core.version>
         <ss.version.110>1.1.0</ss.version.110>
         <mb.version>2.2.0</mb.version>
