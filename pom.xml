@@ -5112,10 +5112,7 @@
         <apim.version.170>1.7.0</apim.version.170>
         <apim.version.180>1.8.0</apim.version.180>
         <apim.version.190>1.9.0</apim.version.190>
-<<<<<<< HEAD
         <apim.version.191>1.9.1-SNAPSHOT</apim.version.191>
-=======
->>>>>>> 7eab1d77e1ed6bd1fd52f7d5c847b2b5c80c23a4
         <dss.version>3.1.0</dss.version>
         <dss.version.311>3.1.1</dss.version.311>
         <dss.version.320>3.2.0</dss.version.320>
@@ -5128,10 +5125,7 @@
         <esb.version>4.8.0</esb.version>
         <esb.version.481>4.8.1</esb.version.481>
         <identity.425>4.2.6</identity.425>
-<<<<<<< HEAD
         <identity.427>4.2.7</identity.427>
-=======
->>>>>>> 7eab1d77e1ed6bd1fd52f7d5c847b2b5c80c23a4
         <apimgt.core.version>1.2.4</apimgt.core.version>
         <ss.version.110>1.1.0</ss.version.110>
         <mb.version>2.2.0</mb.version>
