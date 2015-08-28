@@ -381,10 +381,10 @@
                                     org.jaggeryjs.modules:ws.feature:${jaggery.modules.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.server.feature:${carbon.deployment.version.4.4.1}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:${carbon.deployment.version.4.4.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.module.mgt.server.feature:${carbon.deployment.version.4.4.1}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.module.mgt.feature:${carbon.deployment.version.4.4.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.tenant.mgt.common.feature:${carbon.commons.version.4.4.4}
