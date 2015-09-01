@@ -630,6 +630,37 @@
                                 <featureArtifactDef>org.wso2.carbon.store:utils.feature:2.3.1</featureArtifactDef>
 
                             </featureArtifacts>
+
+                            <categories>
+                                <category>
+                                    <id>org.wso2.apimgt.category.2.0.0</id>
+                                    <label>API Manager Components 2.0.0</label>
+                                    <description>This category contains features released with 2.0.0 API Manager components
+                                    </description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.gateway-manager.nested.category</id>
+                                            <version>${am.version.2.0.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.gateway-worker.nested.category</id>
+                                            <version>${am.version.2.0.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.keymanager.nested.category</id>
+                                            <version>${am.version.2.0.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.publisher.nested.category</id>
+                                            <version>${am.version.2.0.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.store.nested.category</id>
+                                            <version>${am.version.2.0.0}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+                            </categories>
                         </configuration>
                     </execution>
                 </executions>
