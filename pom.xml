@@ -48,11 +48,11 @@
 
     <properties>
         <axis2.transport.version.1.1.0v15>1.1.0-wso2v15</axis2.transport.version.1.1.0v15>
-        <am.version.2.0.0>2.0.0-SNAPSHOT</am.version.2.0.0>
+        <carbon.apimgt.version.2.0.0>2.0.0-SNAPSHOT</carbon.apimgt.version.2.0.0>
         <caramel.feature.version.1.4.0>1.4.0</caramel.feature.version.1.4.0>
-        <carbon.commons.version.4.4.4>4.4.4</carbon.commons.version.4.4.4>
+        <carbon.commons.version.4.4.4>4.4.5</carbon.commons.version.4.4.4>
         <carbon.deployment.version.4.4.1>4.4.1</carbon.deployment.version.4.4.1>
-        <carbon.governance.version.4.5.6>4.5.6</carbon.governance.version.4.5.6>
+        <carbon.governance.version.4.5.6>4.5.7</carbon.governance.version.4.5.6>
         <carbon.identity.version.4.5.5>4.5.5</carbon.identity.version.4.5.5>
         <carbon.feature.version.1.4.0>1.4.0</carbon.feature.version.1.4.0>
         <carbon.kernel.version.4.4.1>4.4.1</carbon.kernel.version.4.4.1>
@@ -95,10 +95,10 @@
                             <featureArtifacts>
 
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${am.version.2.0.0}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${am.version.2.0.0}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -324,10 +324,10 @@
                                 <!--feature categories-->
 
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${am.version.2.0.0}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${am.version.2.0.0}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
 
                                 <!-- Add in alphabetical order -->
@@ -338,24 +338,24 @@
                                 <!--APIPublisher  category -->
                                 <category>
                                     <id>org.wso2.apimgt.publisher.category.feature.category</id>
-                                    <label>API Publisher ${am.version.2.0.0}</label>
+                                    <label>API Publisher ${carbon.apimgt.version.2.0.0}</label>
                                     <description>This category contains APIPublisher features</description>
                                     <features>
                                         <catFeature>
                                             <id>org.wso2.apimgt.publisher.category</id>
-                                            <version>${am.version.2.0.0}</version>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
                                         </catFeature>
                                     </features>
                                 </category>
                                 <!--APIStore  category -->
                                 <category>
                                     <id>org.wso2.apimgt.store.category.feature.category</id>
-                                    <label>API Store ${am.version.2.0.0}</label>
+                                    <label>API Store ${carbon.apimgt.version.2.0.0}</label>
                                     <description>This category contains APIStore features</description>
                                     <features>
                                         <catFeature>
                                             <id>org.wso2.apimgt.store.category</id>
-                                            <version>${am.version.2.0.0}</version>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
                                         </catFeature>
                                     </features>
                                 </category>
