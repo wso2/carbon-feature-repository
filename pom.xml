@@ -47,10 +47,31 @@
     </pluginRepositories>
 
     <properties>
+        <axis2.transport.version.1.1.0v15>1.1.0-wso2v15</axis2.transport.version.1.1.0v15>
+        <carbon.apimgt.version.2.0.0>2.0.0-SNAPSHOT</carbon.apimgt.version.2.0.0>
+        <caramel.feature.version.1.4.0>1.4.0</caramel.feature.version.1.4.0>
+        <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
+        <carbon.deployment.version.4.4.1>4.4.1</carbon.deployment.version.4.4.1>
+        <carbon.governance.version.4.5.7>4.5.8</carbon.governance.version.4.5.7>
+        <carbon.identity.version.4.5.5>4.5.6</carbon.identity.version.4.5.5>
+        <carbon.feature.version.1.4.0>1.4.0</carbon.feature.version.1.4.0>
+        <carbon.kernel.version.4.4.1>4.4.1</carbon.kernel.version.4.4.1>
+        <carbon.multitenancy.version.4.4.1>4.4.1</carbon.multitenancy.version.4.4.1>
         <carbon.p2.plugin.version>1.5.4</carbon.p2.plugin.version>
-
+        <carbon.registry.version.4.4.7>4.4.8</carbon.registry.version.4.4.7>
+        <carbon.rule.version.4.4.0>4.4.0</carbon.rule.version.4.4.0>
+        <carbon.social.version.2.3.4>2.3.4</carbon.social.version.2.3.4>
+        <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
+        <es.feature.version.2.3.4>2.3.4</es.feature.version.2.3.4>
+        <handlebars.feature.version.1.4.0>1.4.0</handlebars.feature.version.1.4.0>
+        <i18n.feature.version.1.4.0>1.4.0</i18n.feature.version.1.4.0>
+        <markdown.feature.version.1.4.0>1.4.0</markdown.feature.version.1.4.0>
+        <org.jaggery.version.0.10.3>0.10.3</org.jaggery.version.0.10.3>
+        <process.feature.version.1.4.0>1.4.0</process.feature.version.1.4.0>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sso.feature.version.1.4.0>1.4.0</sso.feature.version.1.4.0>
+        <uuid.feature.version.1.4.0>1.4.0</uuid.feature.version.1.4.0>
         <!-- Add in alphabetical order -->
-
     </properties>
 
     <build>
@@ -72,9 +93,273 @@
                             <publishArtifacts>true</publishArtifacts>
                             <publishArtifactRepository>true</publishArtifactRepository>
                             <featureArtifacts>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.core.runtime.feature:${carbon.kernel.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon:org.wso2.carbon.core.ui.feature:${carbon.kernel.version.4.4.1}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.message.tracer.handler.feature:1.0.1
+                                </featureArtifactDef>
+
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.application.mgt.server.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.databridge.datapublisher.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.deployment.synchronizer.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.event.common.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.event.server.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.message.flows.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.ntask.core.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.soaptracer.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.system.statistics.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.commons:org.wso2.carbon.tenant.mgt.common.feature:${carbon.commons.version.4.4.6}
+                                </featureArtifactDef>
+
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.module.mgt.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.service.mgt.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.service.mgt.server.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.as.runtimes.cxf.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.bam.service.agent.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.module.mgt.server.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.server.feature:${carbon.deployment.version.4.4.1}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.lifecycle.management.feature:${carbon.governance.version.4.5.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.feature:${carbon.governance.version.4.5.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.5.7}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.claim.mgt.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.mgt.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.notification.mgt.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.thrift.authentication.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.xacml.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.ui.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.core.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.oauth.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.provider.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.self.registration.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.um.ws.service.client.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.um.ws.service.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.user.mgt.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authentication.framework.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authenticator.basicauth.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authenticator.samlsso.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.mgt.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.relying.party.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.user.profile.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.security.mgt.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity:org.wso2.carbon.security.mgt.server.feature:${carbon.identity.version.4.5.5}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature:${carbon.multitenancy.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature:${carbon.multitenancy.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.throttling.agent.feature:${carbon.multitenancy.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature:${carbon.multitenancy.version.4.4.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.community.features.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.governance.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.server.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.core.server.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.4.4.7}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.10.3}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:handlebars.feature:${handlebars.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:markdown.feature:${markdown.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:sso.feature:${sso.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.4.0}</featureArtifactDef>
+
+
+                                <featureArtifactDef>org.wso2.carbon.store:account-management.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:event.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:lifecycle.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:login.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:registration.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:rxt.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:store.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:ues.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <featureArtifactDef>org.wso2.carbon.store:utils.feature:${es.feature.version.2.3.4}</featureArtifactDef>
+                                <!--feature categories-->
+
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+
                                 <!-- Add in alphabetical order -->
 
                             </featureArtifacts>
+
+                            <categories>
+                                <!--APIPublisher  category -->
+                                <category>
+                                    <id>org.wso2.apimgt.publisher.category.feature.category</id>
+                                    <label>API Publisher ${carbon.apimgt.version.2.0.0}</label>
+                                    <description>This category contains APIPublisher features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.publisher.category</id>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+                                <!--APIStore  category -->
+                                <category>
+                                    <id>org.wso2.apimgt.store.category.feature.category</id>
+                                    <label>API Store ${carbon.apimgt.version.2.0.0}</label>
+                                    <description>This category contains APIStore features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.store.category</id>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+                            </categories>
                         </configuration>
                     </execution>
                 </executions>
