@@ -33,24 +33,6 @@
     <name>WSO2 Carbon - Feature Repository</name>
     <url>http://wso2.org</url>
 
-	<repositories>
-        <repository>
-            <id>wso2-greg-stage</id>
-            <name>WSO2 internal Repository1</name>
-            <url>http://maven.wso2.org/nexus/content/repositories/orgwso2greg-042/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>ignore</checksumPolicy>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-        </repository>
-    </repositories>
-
     <pluginRepositories>
         <pluginRepository>
             <id>wso2-nexus</id>
@@ -70,7 +52,7 @@
         <carbon.analytics.common.version.1.0.0>1.0.0</carbon.analytics.common.version.1.0.0>
         <carbon.analytics.common.version.1.0.1>1.0.1</carbon.analytics.common.version.1.0.1>
         <carbon.apimgt.feature.version.1.3.3>1.3.3</carbon.apimgt.feature.version.1.3.3>
-        <carbon.apimgt.version.2.0.0>2.0.0-SNAPSHOT</carbon.apimgt.version.2.0.0>
+        <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <caramel.feature.version.1.4.0>1.4.0</caramel.feature.version.1.4.0>
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
@@ -119,16 +101,32 @@
                             <publishArtifacts>true</publishArtifacts>
                             <publishArtifactRepository>true</publishArtifactRepository>
                             <featureArtifacts>
-
                                 <featureArtifactDef>
                                     org.apache.axis2.transport:org.apache.axis2.transport.mail.feature:${axis2-transports.wso2.version.1.1.0.wso2v12}
                                 </featureArtifactDef>
+
+                                <featureArtifactDef>org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.10.3}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:handlebars.feature:${handlebars.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:jaggery-test.feature:${jaggery-test.feature.version.1.2.2}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:markdown.feature:${markdown.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:sso.feature:${sso.feature.version.1.4.0}</featureArtifactDef>
+                                <featureArtifactDef>org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.4.0}</featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -253,7 +251,6 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.5.8}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance-extensions:org.wso2.carbon.governance.comparator.server.feature:${carbon.governance.ext.version.4.4.4}
                                 </featureArtifactDef>
@@ -428,17 +425,6 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version.4.4.8}
                                 </featureArtifactDef>
 
-                                <featureArtifactDef>org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.10.3}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:handlebars.feature:${handlebars.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:jaggery-test.feature:${jaggery-test.feature.version.1.2.2}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:markdown.feature:${markdown.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:sso.feature:${sso.feature.version.1.4.0}</featureArtifactDef>
-                                <featureArtifactDef>org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.4.0}</featureArtifactDef>
-
                                 <featureArtifactDef>org.wso2.carbon.store:account-management.feature:${es.feature.version.2.3.4}</featureArtifactDef>
                                 <featureArtifactDef>org.wso2.carbon.store:event.feature:${es.feature.version.2.3.4}</featureArtifactDef>
                                 <featureArtifactDef>org.wso2.carbon.store:lifecycle.feature:${es.feature.version.2.3.4}</featureArtifactDef>
@@ -451,14 +437,6 @@
                                 <featureArtifactDef>org.wso2.carbon.store:store.feature:${es.feature.version.2.3.4}</featureArtifactDef>
                                 <featureArtifactDef>org.wso2.carbon.store:ues.feature:${es.feature.version.2.3.4}</featureArtifactDef>
                                 <featureArtifactDef>org.wso2.carbon.store:utils.feature:${es.feature.version.2.3.4}</featureArtifactDef>
-                                <!--feature categories-->
-
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
-                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.greg:org.wso2.carbon.governance.es.extensions.feature:${product.greg.version.5.0.0}
@@ -472,6 +450,7 @@
                                 <featureArtifactDef>
                                     org.wso2.greg:org.wso2.stratos.governance.ui.feature:${product.greg.version.5.0.0}
                                 </featureArtifactDef>
+                                <!--feature categories-->
 
                                 <!-- Add in alphabetical order -->
 
