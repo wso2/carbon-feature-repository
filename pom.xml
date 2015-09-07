@@ -33,19 +33,25 @@
     <name>WSO2 Carbon - Feature Repository</name>
     <url>http://wso2.org</url>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>wso2.snapshots</id>
-            <name>Apache Snapshot Repository</name>
-            <url>http://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+	<repositories>
+        <repository>
+            <id>wso2-greg-stage</id>
+            <name>WSO2 internal Repository1</name>
+            <url>http://maven.wso2.org/nexus/content/repositories/orgwso2greg-042/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>ignore</checksumPolicy>
             </snapshots>
             <releases>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>ignore</checksumPolicy>
             </releases>
-        </pluginRepository>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
         <pluginRepository>
             <id>wso2-nexus</id>
             <name>WSO2 internal Repository</name>
@@ -87,7 +93,7 @@
         <markdown.feature.version.1.4.0>1.4.0</markdown.feature.version.1.4.0>
         <org.jaggery.version.0.10.3>0.10.3</org.jaggery.version.0.10.3>
         <process.feature.version.1.4.0>1.4.0</process.feature.version.1.4.0>
-        <product.greg.version.5.0.0>5.0.0-SNAPSHOT</product.greg.version.5.0.0>
+        <product.greg.version.5.0.0>5.0.0</product.greg.version.5.0.0>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sso.feature.version.1.4.0>1.4.0</sso.feature.version.1.4.0>
         <uuid.feature.version.1.4.0>1.4.0</uuid.feature.version.1.4.0>
