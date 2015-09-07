@@ -15,9 +15,7 @@
  ~ limitations under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.wso2</groupId>
@@ -28,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.wso2.carbon.feature.repository</groupId>
     <artifactId>feature-repository</artifactId>
-    <version>4.4.0-SNAPSHOT</version>
+    <version>4.4.0</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Feature Repository</name>
     <url>http://wso2.org</url>
@@ -50,7 +48,7 @@
        <url>https://github.com/wso2/carbon-feature-repository.git</url>
        <developerConnection>scm:git:https://github.com/wso2/carbon-feature-repository.git</developerConnection>
        <connection>scm:git:https://github.com/wso2/carbon-feature-repository.git</connection>
-       <tag>HEAD</tag>
+       <tag>v4.4.0</tag>
    </scm>
 
     <properties>
