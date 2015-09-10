@@ -502,7 +502,7 @@
                                     org.wso2.greg:org.wso2.stratos.governance.ui.feature:${product.greg.version.5.0.0}
                                 </featureArtifactDef>
 
-                                <!--1. Carbon-Mediation-->
+                                <!--ESB Carbon-Mediation-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.apache.synapse.wso2.feature:${carbon.mediation.version.4.4.10}
                                 </featureArtifactDef>
@@ -587,8 +587,11 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.hl7.feature:${carbon.mediation.version.4.4.10}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.mediation:org.wso2.carbon.inbound.endpoints.ext.wsrm.feature:${carbon.mediation.version.4.4.10}
+                                </featureArtifactDef>
 
-                                <!--3 Carbon Commons-->
+                                <!--ESB Carbon Commons-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.tenant.mgt.common.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
@@ -616,7 +619,6 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.system.statistics.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.event.server.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
@@ -638,11 +640,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.transaction.manager.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.logging.mgt.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
                                     org.wso2.carbon.commons:org.wso2.carbon.message.flows.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
@@ -656,8 +656,7 @@
                                     org.wso2.carbon.commons:org.wso2.carbon.soaptracer.feature:${carbon.commons.version.4.4.7}
                                 </featureArtifactDef>
 
-
-                                <!--4 Carbon-registry-->
+                                <!--ESB Carbon-registry-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.4.5}
                                 </featureArtifactDef>
@@ -686,7 +685,7 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.server.feature:${carbon.registry.version.4.4.5}
                                 </featureArtifactDef>
 
-                                <!--5 Carbon-identity -->
+                                <!--ESB Carbon-identity -->
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity:org.wso2.carbon.sts.feature:${carbon.identity.version.4.5.6}
                                 </featureArtifactDef>
@@ -694,7 +693,7 @@
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.core.ui.feature:${carbon.identity.version.4.5.6}
                                 </featureArtifactDef>
 
-                                <!--7 Carbon Governance -->
+                                <!--ESB Carbon Governance -->
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.server.feature:${carbon.governance.version.4.5.2}
                                 </featureArtifactDef>
@@ -702,7 +701,7 @@
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.5.2}
                                 </featureArtifactDef>
 
-                                <!--8 Carbon-MultiTenancy-->
+                                <!--ESB Carbon-MultiTenancy-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature:${carbon.multitenancy.version.4.4.3}
                                 </featureArtifactDef>
@@ -722,7 +721,7 @@
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.mgt.server.feature:${carbon.multitenancy.version.4.4.3}
                                 </featureArtifactDef>
 
-                                <!--9 ESB Specific-->
+                                <!--ESB ESB Specific-->
                                 <featureArtifactDef>
                                     org.wso2.esb:org.wso2.esb.samples.feature:${product.esb.version.4.9.0}
                                 </featureArtifactDef>
@@ -730,17 +729,16 @@
                                     org.wso2.esb:org.wso2.esb.styles.feature:${product.esb.version.4.9.0}
                                 </featureArtifactDef>
 
-                                <!--10 Carbon-rules-->
+                                <!--ESB Carbon-rules-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.rules:org.wso2.carbon.rule.mediation.feature:${carbon.rule.version.4.4.1}
                                 </featureArtifactDef>
 
-                                <!--11 Axis2 Transports-->
+                                <!--ESB Axis2 Transports-->
                                 <featureArtifactDef>
                                     org.apache.axis2.transport:org.apache.axis2.transport.jms.feature:${axis2-transports.wso2.version.1.1.0.wso2v17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    <!-- contains -->
                                     org.apache.axis2.transport:org.apache.axis2.transport.mail.feature:${axis2-transports.wso2.version.1.1.0.wso2v17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -767,11 +765,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.bam.mediation.agent.feature:${carbon.mediation.version.4.4.10}
                                 </featureArtifactDef>
-
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.hl7.feature:${carbon.mediation.version.4.4.10}
                                 </featureArtifactDef>
-
 
                                 <!--feature categories-->
                                 <featureArtifactDef>
