@@ -711,7 +711,7 @@
                                 <!--APIPublisher  category -->
                                 <category>
                                     <id>org.wso2.apimgt.publisher.category.feature.category</id>
-                                    <label>API Publisher ${carbon.apimgt.version.2.0.0}</label>
+                                    <label>API Publisher</label>
                                     <description>This category contains APIPublisher features</description>
                                     <features>
                                         <catFeature>
@@ -724,7 +724,7 @@
                                 <!--APIStore  category -->
                                 <category>
                                     <id>org.wso2.apimgt.store.category.feature.category</id>
-                                    <label>API Store ${carbon.apimgt.version.2.0.0}</label>
+                                    <label>API Store</label>
                                     <description>This category contains APIStore features</description>
                                     <features>
                                         <catFeature>
