@@ -57,6 +57,7 @@
         <axis2-transports.wso2.version.1.1.0.wso2v12>1.1.0-wso2v12</axis2-transports.wso2.version.1.1.0.wso2v12>
         <caramel.feature.version.1.0.1>1.0.1</caramel.feature.version.1.0.1>
         <caramel.feature.version.1.4.0>1.4.0</caramel.feature.version.1.4.0>
+        <caramel.feature.version.1.4.4>1.4.4</caramel.feature.version.1.4.4>
         <axis2-transports.wso2.version.1.1.0.wso2v17>1.1.0-wso2v17</axis2-transports.wso2.version.1.1.0.wso2v17>
         <carbon.analytics.common.version.1.0.0>1.0.0</carbon.analytics.common.version.1.0.0>
         <carbon.analytics.common.version.1.0.1>1.0.1</carbon.analytics.common.version.1.0.1>
@@ -79,6 +80,7 @@
         <carbon.feature.version.1.2.0>1.2.0</carbon.feature.version.1.2.0>
         <carbon.feature.version.1.4.0>1.4.0</carbon.feature.version.1.4.0>
         <carbon.feature.version.1.4.2>1.4.2</carbon.feature.version.1.4.2>
+        <carbon.feature.version.1.4.4>1.4.4</carbon.feature.version.1.4.4>
         <carbon.governance.version.4.5.2>4.5.2</carbon.governance.version.4.5.2>
         <carbon.governance.version.4.5.8>4.5.8</carbon.governance.version.4.5.8>
         <carbon.governance.version.4.5.9>4.5.9</carbon.governance.version.4.5.9>
@@ -107,20 +109,25 @@
         <gadget.feature.version.1.2.0>1.2.0</gadget.feature.version.1.2.0>
         <handlebars.feature.version.1.0.0>1.0.0</handlebars.feature.version.1.0.0>
         <handlebars.feature.version.1.4.0>1.4.0</handlebars.feature.version.1.4.0>
+        <handlebars.feature.version.1.4.4>1.4.4</handlebars.feature.version.1.4.4>
         <i18n.feature.version.1.2.0>1.2.0</i18n.feature.version.1.2.0>
         <i18n.feature.version.1.4.0>1.4.0</i18n.feature.version.1.4.0>
+        <i18n.feature.version.1.4.4>1.4.4</i18n.feature.version.1.4.4>
         <jaggery-test.feature.version.1.2.2>1.2.2</jaggery-test.feature.version.1.2.2>
         <jaggery-test.feature.version.1.4.0>1.4.0</jaggery-test.feature.version.1.4.0>
         <markdown.feature.version.1.0.0>1.0.0</markdown.feature.version.1.0.0>
         <markdown.feature.version.1.4.0>1.4.0</markdown.feature.version.1.4.0>
+        <markdown.feature.version.1.4.4>1.4.4</markdown.feature.version.1.4.4>
         <oauth.feature.version.1.2.0>1.2.0</oauth.feature.version.1.2.0>
         <org.jaggery.version.0.10.3>0.10.3</org.jaggery.version.0.10.3>
         <org.jaggery.version.0.11.0>0.11.0</org.jaggery.version.0.11.0>
         <org.jaggery.version.0.11.1>0.11.1</org.jaggery.version.0.11.1>
+        <org.jaggery.version.0.11.2>0.11.2</org.jaggery.version.0.11.2>
         <process.feature.version.1.0.0>1.0.0</process.feature.version.1.0.0>
         <process.feature.version.1.2.0>1.2.0</process.feature.version.1.2.0>
         <process.feature.version.1.4.0>1.4.0</process.feature.version.1.4.0>
         <process.feature.version.1.4.2>1.4.2</process.feature.version.1.4.2>
+        <process.feature.version.1.4.4>1.4.4</process.feature.version.1.4.4>
         <product.as.version.5.3.0>5.3.0</product.as.version.5.3.0>
         <product.cep.version.4.0.0>4.0.0</product.cep.version.4.0.0>
         <product.esb.version.4.9.0>4.9.0</product.esb.version.4.9.0>
@@ -129,9 +136,11 @@
         <product.ml.version.1.0.0>1.0.0</product.ml.version.1.0.0>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sso.feature.version.1.4.0>1.4.0</sso.feature.version.1.4.0>
+        <sso.feature.version.1.4.4>1.4.4</sso.feature.version.1.4.4>
         <uuid.feature.version.1.0.0>1.0.0</uuid.feature.version.1.0.0>
         <uuid.feature.version.1.2.0>1.2.0</uuid.feature.version.1.2.0>
         <uuid.feature.version.1.4.0>1.4.0</uuid.feature.version.1.4.0>
+        <uuid.feature.version.1.4.4>1.4.4</uuid.feature.version.1.4.4>
         <ws.feature.version.1.2.0>1.2.0</ws.feature.version.1.2.0>
         <ws.feature.version.1.4.2>1.4.2</ws.feature.version.1.4.2>
     </properties>
@@ -187,6 +196,9 @@
                                     org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.4.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -197,6 +209,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:email.feature:${email.feature.version.1.2.0}
@@ -211,10 +226,16 @@
                                     org.jaggeryjs.modules:handlebars.feature:${handlebars.feature.version.1.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.jaggeryjs.modules:handlebars.feature:${handlebars.feature.version.1.4.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.2.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:i18n.feature:${i18n.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:jaggery-test.feature:${jaggery-test.feature.version.1.2.2}
@@ -227,6 +248,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:markdown.feature:${markdown.feature.version.1.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:markdown.feature:${markdown.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:oauth.feature:${oauth.feature.version.1.2.0}
@@ -244,7 +268,13 @@
                                     org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.jaggeryjs.modules:process.feature:${process.feature.version.1.4.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.jaggeryjs.modules:sso.feature:${sso.feature.version.1.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:sso.feature:${sso.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.0.0}
@@ -254,6 +284,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:uuid.feature:${uuid.feature.version.1.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:ws.feature:${ws.feature.version.1.2.0}
@@ -270,6 +303,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.11.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs:org.jaggeryjs.feature:${org.jaggery.version.0.11.2}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
