@@ -317,7 +317,13 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.1}
@@ -1427,7 +1433,13 @@
 
                                 <!--feature categories-->
                                 <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.1}
@@ -1457,12 +1469,36 @@
                                     <features>
                                         <catFeature>
                                             <id>org.wso2.apimgt.publisher.category</id>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <category>
+                                    <id>org.wso2.apimgt.publisher.category.feature.category</id>
+                                    <label>API Publisher</label>
+                                    <description>This category contains APIPublisher features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.publisher.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
                                         </catFeature>
                                     </features>
                                 </category>
 
                                 <!--APIStore  category -->
+                                <category>
+                                    <id>org.wso2.apimgt.store.category.feature.category</id>
+                                    <label>API Store</label>
+                                    <description>This category contains APIStore features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.store.category</id>
+                                            <version>${carbon.apimgt.version.2.0.0}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
                                 <category>
                                     <id>org.wso2.apimgt.store.category.feature.category</id>
                                     <label>API Store</label>
