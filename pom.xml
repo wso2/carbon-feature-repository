@@ -111,7 +111,7 @@
         <email.feature.version.1.2.0>1.2.0</email.feature.version.1.2.0>
         <es.feature.version.2.3.4>2.3.4</es.feature.version.2.3.4>
         <es.feature.version.2.3.8>2.3.8</es.feature.version.2.3.8>
-        <es.feature.version.2.3.9>2.3.9-SNAPSHOT</es.feature.version.2.3.9>
+        <es.feature.version.2.3.9>2.3.9</es.feature.version.2.3.9>
         <gadget.feature.version.1.2.0>1.2.0</gadget.feature.version.1.2.0>
         <handlebars.feature.version.1.0.0>1.0.0</handlebars.feature.version.1.0.0>
         <handlebars.feature.version.1.4.0>1.4.0</handlebars.feature.version.1.4.0>
