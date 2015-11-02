@@ -74,6 +74,7 @@
         <carbon.commons.version.4.4.8>4.4.8</carbon.commons.version.4.4.8>
         <carbon.dashboards.version.1.0.2>1.0.2</carbon.dashboards.version.1.0.2>
         <carbon.data.version.4.3.1>4.3.1</carbon.data.version.4.3.1>
+        <carbon.data.version.4.3.4>4.3.4</carbon.data.version.4.3.4>
         <carbon.deployment.version.4.4.1>4.4.1</carbon.deployment.version.4.4.1>
         <carbon.deployment.version.4.5.2>4.5.2</carbon.deployment.version.4.5.2>
         <carbon.deployment.version.4.5.3>4.5.3</carbon.deployment.version.4.5.3>
@@ -1445,6 +1446,33 @@
                                     org.wso2.carbon.deployment:org.wso2.carbon.webapp-runtime-environment.category.feature:${carbon.deployment.version.4.5.3}
                                 </featureArtifactDef>
 
+                                <!-- Begin Data Service Features -->
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.cassandra-jdbc-1.2.5.server.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.server.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.ui.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.server.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.ui.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <!-- End Data Service Features -->
+
                             </featureArtifacts>
 
                             <categories>
@@ -1546,6 +1574,19 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.webapp-hosting.category</id>
                                             <version>${carbon.deployment.version.4.5.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--Data Services hosting category-->
+                                <category>
+                                    <id>org.wso2.carbon.dataservices-hosting.category.feature.category</id>
+                                    <label>Data Services Server Hosting</label>
+                                    <description>Includes data services hosting features.</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.dataservices-hosting.category</id>
+                                            <version>${carbon.data.version.4.3.4}</version>
                                         </catFeature>
                                     </features>
                                 </category>
