@@ -54,10 +54,10 @@
     <properties>
         <!-- Add in alphabetical order -->
         <axis2-transports.wso2.version.1.1.0.wso2v12>1.1.0-wso2v12</axis2-transports.wso2.version.1.1.0.wso2v12>
+        <axis2-transports.wso2.version.1.1.0.wso2v17>1.1.0-wso2v17</axis2-transports.wso2.version.1.1.0.wso2v17>
         <caramel.feature.version.1.0.1>1.0.1</caramel.feature.version.1.0.1>
         <caramel.feature.version.1.4.0>1.4.0</caramel.feature.version.1.4.0>
         <caramel.feature.version.1.4.4>1.4.4</caramel.feature.version.1.4.4>
-        <axis2-transports.wso2.version.1.1.0.wso2v17>1.1.0-wso2v17</axis2-transports.wso2.version.1.1.0.wso2v17>
         <carbon.analytics.common.version.1.0.0>1.0.0</carbon.analytics.common.version.1.0.0>
         <carbon.analytics.common.version.1.0.1>1.0.1</carbon.analytics.common.version.1.0.1>
         <carbon.analytics.common.version.5.0.2>5.0.2</carbon.analytics.common.version.5.0.2>
@@ -315,6 +315,16 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.styles.feature:${product.as.version.5.3.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.appserver.utils.feature:${product.as.version.5.3.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature:${product.as.version.5.3.0}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -325,16 +335,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.2.0.1}
-                                </featureArtifactDef>
-
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.styles.feature:${product.as.version.5.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.utils.feature:${product.as.version.5.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature:${product.as.version.5.3.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -1371,14 +1371,14 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.ciphertool:org.wso2.ciphertool.feature:${cipher.tool.version.1.0.0v3}
-                                </featureArtifactDef>
-
-                                <featureArtifactDef>
                                     org.wso2.cep:org.wso2.cep.styles.feature:${product.cep.version.4.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.cep:org.wso2.stratos.cep.dashboard.ui.feature:${product.cep.version.4.0.0}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.ciphertool:org.wso2.ciphertool.feature:${cipher.tool.version.1.0.0v3}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -1457,14 +1457,6 @@
                                             <id>org.wso2.apimgt.publisher.category</id>
                                             <version>${carbon.apimgt.version.2.0.0}</version>
                                         </catFeature>
-                                    </features>
-                                </category>
-
-                                <category>
-                                    <id>org.wso2.apimgt.publisher.category.feature.category</id>
-                                    <label>API Publisher</label>
-                                    <description>This category contains APIPublisher features</description>
-                                    <features>
                                         <catFeature>
                                             <id>org.wso2.apimgt.publisher.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
@@ -1482,14 +1474,6 @@
                                             <id>org.wso2.apimgt.store.category</id>
                                             <version>${carbon.apimgt.version.2.0.0}</version>
                                         </catFeature>
-                                    </features>
-                                </category>
-
-                                <category>
-                                    <id>org.wso2.apimgt.store.category.feature.category</id>
-                                    <label>API Store</label>
-                                    <description>This category contains APIStore features</description>
-                                    <features>
                                         <catFeature>
                                             <id>org.wso2.apimgt.store.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
