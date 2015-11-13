@@ -143,6 +143,7 @@
         <product.esb.version.4.9.0>4.9.0</product.esb.version.4.9.0>
         <product.greg.version.5.0.0>5.0.0</product.greg.version.5.0.0>
         <product.greg.version.5.0.1>5.0.1</product.greg.version.5.0.1>
+        <product.greg.version.5.1.0>5.1.0</product.greg.version.5.1.0>
         <product.mb.version.3.0.0>3.0.0</product.mb.version.3.0.0>
         <product.ml.version.1.0.0>1.0.0</product.ml.version.1.0.0>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -1454,10 +1455,16 @@
                                     org.wso2.greg:org.wso2.carbon.governance.es.extensions.feature:${product.greg.version.5.0.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.greg:org.wso2.carbon.governance.es.extensions.feature:${product.greg.version.5.1.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.greg:org.wso2.carbon.governance.jaggeryapps.feature:${product.greg.version.5.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.greg:org.wso2.carbon.governance.jaggeryapps.feature:${product.greg.version.5.0.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.greg:org.wso2.carbon.governance.jaggeryapps.feature:${product.greg.version.5.1.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.greg:org.wso2.carbon.governance.styles.feature:${product.greg.version.5.0.0}
@@ -1466,10 +1473,16 @@
                                     org.wso2.greg:org.wso2.carbon.governance.styles.feature:${product.greg.version.5.0.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.greg:org.wso2.carbon.governance.styles.feature:${product.greg.version.5.1.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.greg:org.wso2.stratos.governance.ui.feature:${product.greg.version.5.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.greg:org.wso2.stratos.governance.ui.feature:${product.greg.version.5.0.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.greg:org.wso2.stratos.governance.ui.feature:${product.greg.version.5.1.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
