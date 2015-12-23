@@ -1828,10 +1828,10 @@
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.agents.category.feature:${carbon.identity.version.5.0.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authorization.category.feature:${carbon.identity.version.5.0.7}
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticators.category.feature:${carbon.identity.version.5.0.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticators.category.feature:${carbon.identity.version.5.0.7}
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authorization.category.feature:${carbon.identity.version.5.0.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.inbound.authentication.category.feature:${carbon.identity.version.5.0.7}
