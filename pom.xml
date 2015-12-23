@@ -1988,19 +1988,6 @@
                                     </features>
                                 </category>
 
-                                <!--Identity authorization category-->
-                                <category>
-                                    <id>org.wso2.carbon.identity.authorization.category.feature.category</id>
-                                    <label>Identity Authorization</label>
-                                    <description>Includes identity authorization features.</description>
-                                    <features>
-                                        <catFeature>
-                                            <id>org.wso2.carbon.identity.authorization.category</id>
-                                            <version>${carbon.identity.version.5.0.7}</version>
-                                        </catFeature>
-                                    </features>
-                                </category>
-
                                 <!--Carbon authenticators category-->
                                 <category>
                                     <id>org.wso2.carbon.identity.authenticators.category.feature.category</id>
@@ -2009,6 +1996,19 @@
                                     <features>
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.authenticators.category</id>
+                                            <version>${carbon.identity.version.5.0.7}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--Identity authorization category-->
+                                <category>
+                                    <id>org.wso2.carbon.identity.authorization.category.feature.category</id>
+                                    <label>Identity Authorization</label>
+                                    <description>Includes identity authorization features.</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.authorization.category</id>
                                             <version>${carbon.identity.version.5.0.7}</version>
                                         </catFeature>
                                     </features>
