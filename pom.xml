@@ -1959,11 +1959,7 @@
                                         <catFeature>
                                             <id>org.wso2.apimgt.publisher.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.apimgt.publisher.nested.category</id>
-                                            <version>${carbon.apimgt.version.5.0.3}</version>
-                                        </catFeature>
+                                        </catFeature>                                       
                                     </features>
                                 </category>
 
@@ -1980,11 +1976,7 @@
                                         <catFeature>
                                             <id>org.wso2.apimgt.store.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.apimgt.store.nested.category</id>
-                                            <version>${carbon.apimgt.version.5.0.3}</version>
-                                        </catFeature>
+                                        </catFeature>                                        
                                     </features>
                                 </category>
 
