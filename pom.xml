@@ -15,7 +15,8 @@
  ~ limitations under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.wso2</groupId>
@@ -98,7 +99,7 @@
         <carbon.kernel.version.4.4.2>4.4.2</carbon.kernel.version.4.4.2>
         <carbon.kernel.version.4.4.3>4.4.3</carbon.kernel.version.4.4.3>
         <carbon.mediation.version.4.4.10>4.4.10</carbon.mediation.version.4.4.10>
-	<carbon.mediation.version.4.5.1>4.5.1</carbon.mediation.version.4.5.1>
+        <carbon.mediation.version.4.5.1>4.5.1</carbon.mediation.version.4.5.1>
         <carbon.messaging.version.3.0.1>3.0.1</carbon.messaging.version.3.0.1>
         <carbon.messaging.version.3.1.1>3.1.1</carbon.messaging.version.3.1.1>
         <carbon.metrics.version.1.1.0>1.1.0</carbon.metrics.version.1.1.0>
@@ -341,7 +342,7 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.stratos.appserver.dashboard.ui.feature:${product.as.version.5.3.0}
-                                </featureArtifactDef>            
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.1}
@@ -349,7 +350,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.2}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -358,7 +359,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.runtime.feature:${carbon.kernel.version.4.4.2}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.runtime.feature:${carbon.kernel.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -434,10 +435,10 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics.common.version.5.0.2}
                                 </featureArtifactDef>
 
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.core.feature:${carbon.apimgt.version.5.0.3}
-                                </featureArtifactDef>                        
-				<featureArtifactDef>
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -446,19 +447,19 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.gateway.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
-  				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.interceptor.feature:${carbon.apimgt.version.5.0.3}
-                                </featureArtifactDef>                                
- 				<featureArtifactDef>
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.keymanager.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.publisher.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.startup.publisher.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1346,7 +1347,7 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.initializer.feature:${carbon.mediation.version.4.5.1}
-                                </featureArtifactDef>                               
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.ntask.feature:${carbon.mediation.version.4.4.10}
                                 </featureArtifactDef>
@@ -1411,20 +1412,20 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.feature:${carbon.ml.version.1.0.2}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.feature:${carbon.ml.version.1.1.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.mediator.predict.feature:${carbon.ml.version.1.0.2}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.mediator.predict.feature:${carbon.ml.version.1.1.1}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.siddhi.extension.feature:${carbon.ml.version.1.0.2}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.siddhi.extension.feature:${carbon.ml.version.1.1.1}
                                 </featureArtifactDef>
 
@@ -1861,7 +1862,7 @@
                                 <featureArtifactDef>
                                     org.wso2.ml:org.wso2.ml.styles.feature:${product.ml.version.1.0.0}
                                 </featureArtifactDef>
-				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.ml:org.wso2.ml.styles.feature:${product.ml.version.1.1.0}
                                 </featureArtifactDef>
 
@@ -1875,7 +1876,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.nested.category.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
-       				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1883,16 +1884,16 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.nested.category.feature:${carbon.apimgt.version.5.0.3}
-                                </featureArtifactDef>                                  
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.1}
                                 </featureArtifactDef>
- 				<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.nested.category.feature:${carbon.apimgt.version.5.0.3}
-                                </featureArtifactDef>                             
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.3.4}
@@ -1976,7 +1977,7 @@
                                         <catFeature>
                                             <id>org.wso2.apimgt.publisher.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
-                                        </catFeature>                                       
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -1993,7 +1994,7 @@
                                         <catFeature>
                                             <id>org.wso2.apimgt.store.category</id>
                                             <version>${carbon.apimgt.version.2.0.1}</version>
-                                        </catFeature>                                        
+                                        </catFeature>
                                     </features>
                                 </category>
 
