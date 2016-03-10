@@ -71,6 +71,7 @@
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.business.process.version.4.4.3>4.4.3</carbon.business.process.version.4.4.3>
         <carbon.business.process.version.4.4.4>4.4.4</carbon.business.process.version.4.4.4>
+        <carbon.business.process.version.4.4.7>4.4.7</carbon.business.process.version.4.4.7>
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
         <carbon.commons.version.4.4.7>4.4.7</carbon.commons.version.4.4.7>
         <carbon.commons.version.4.4.8>4.4.8</carbon.commons.version.4.4.8>
@@ -483,6 +484,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.server.feature:${carbon.business.process.version.4.4.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.server.feature:${carbon.business.process.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.humantask.server.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -490,6 +494,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.humantask.server.feature:${carbon.business.process.version.4.4.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.humantask.server.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
