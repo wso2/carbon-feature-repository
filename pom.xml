@@ -547,9 +547,6 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.business-process:org.wso2.carbon.bpel.analytics.publisher.feature:${carbon.business.process.version.4.4.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.analytics.publisher.feature:${carbon.business.process.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -581,9 +578,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.ui.feature:${carbon.business.process.version.4.4.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.business-process:org.wso2.carbon.bpmn.analytics.publisher.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpmn.analytics.publisher.feature:${carbon.business.process.version.4.4.3}
