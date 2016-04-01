@@ -64,6 +64,7 @@
         <carbon.analytics.common.version.5.0.2>5.0.2</carbon.analytics.common.version.5.0.2>
         <carbon.analytics-common.version.5.0.3>5.0.3</carbon.analytics-common.version.5.0.3>
         <carbon.analytics-common.version.5.0.6>5.0.6</carbon.analytics-common.version.5.0.6>
+	<carbon.analytics-common.version.5.0.11>5.0.11</carbon.analytics-common.version.5.0.11>
         <carbon.analytics.version.1.0.3>1.0.3</carbon.analytics.version.1.0.3>
         <carbon.apimgt.feature.version.1.3.3>1.3.3</carbon.apimgt.feature.version.1.3.3>
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
@@ -425,6 +426,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics-common.version.5.0.3}
+                                </featureArtifactDef>
+				<featureArtifactDef>
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.aggregate.feature:${carbon.analytics-common.version.5.0.11}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email.server.feature:${carbon.analytics.common.version.5.0.2}
