@@ -70,7 +70,7 @@
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
         <carbon.apimgt.version.5.0.3>5.0.3</carbon.apimgt.version.5.0.3>
-        <carbon.apimgt.version.6.0.1>6.0.1</carbon.apimgt.version.6.0.1>
+        <carbon.apimgt.version.6.0.3>6.0.3</carbon.apimgt.version.6.0.3>
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.business.process.version.4.4.3>4.4.3</carbon.business.process.version.4.4.3>
         <carbon.business.process.version.4.4.4>4.4.4</carbon.business.process.version.4.4.4>
@@ -577,28 +577,28 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.core.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.core.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.gateway.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.gateway.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.interceptor.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.interceptor.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.keymanager.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.keymanager.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.publisher.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.publisher.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.startup.publisher.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.startup.publisher.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.store.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.store.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -2424,19 +2424,19 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-manager.category.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-manager.category.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-worker.category.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-worker.category.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.category.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.category.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.6.0.1}
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.6.0.3}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -2555,7 +2555,7 @@
                                         </catFeature>
                                         <catFeature>
                                             <id>org.wso2.apimgt.keymanager.category</id>
-                                            <version>${carbon.apimgt.version.6.0.1}</version>
+                                            <version>${carbon.apimgt.version.6.0.3}</version>
                                         </catFeature>
                                     </features>
                                 </category>
