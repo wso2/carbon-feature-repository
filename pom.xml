@@ -3111,6 +3111,10 @@
                                             <id>org.wso2.apimgt.keymanager.nested.category</id>
                                             <version>${carbon.apimgt.version.5.0.3}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.apimgt.keymanager.category</id>
+                                            <version>${carbon.apimgt.version.6.0.4}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
