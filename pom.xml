@@ -141,7 +141,7 @@
         <carbon.multitenancy.version.4.5.0>4.5.0</carbon.multitenancy.version.4.5.0>
         <carbon.multitenancy.version.4.5.1>4.5.1</carbon.multitenancy.version.4.5.1>
         <carbon.multitenancy.version.4.5.2>4.5.2</carbon.multitenancy.version.4.5.2>
-		<carbon.multitenancy.version.4.6.0>4.6.0</carbon.multitenancy.version.4.6.0>
+        <carbon.multitenancy.version.4.6.0>4.6.0</carbon.multitenancy.version.4.6.0>
         <carbon.p2.plugin.version>1.5.4</carbon.p2.plugin.version>
         <carbon.registry.version.4.4.5>4.4.5</carbon.registry.version.4.4.5>
         <carbon.registry.version.4.4.8>4.4.8</carbon.registry.version.4.4.8>
@@ -497,7 +497,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.7}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:${carbon.kernel.version.4.4.8}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -515,7 +515,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.runtime.feature:${carbon.kernel.version.4.4.7}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.runtime.feature:${carbon.kernel.version.4.4.8}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1630,7 +1630,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.core.ui.feature:${carbon.identity.version.5.0.8}
                                 </featureArtifactDef>
-								 <featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.core.ui.feature:${carbon.identity.framework.version.5.2.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2309,7 +2309,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature:${carbon.multitenancy.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.common.feature:${carbon.multitenancy.version.4.6.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2327,7 +2327,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature:${carbon.multitenancy.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.deployment.feature:${carbon.multitenancy.version.4.6.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2360,7 +2360,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.throttling.agent.feature:${carbon.multitenancy.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.throttling.agent.feature:${carbon.multitenancy.version.4.6.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2378,7 +2378,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature:${carbon.multitenancy.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.multitenancy:org.wso2.carbon.tenant.usage.agent.feature:${carbon.multitenancy.version.4.6.0}
                                 </featureArtifactDef>
 
@@ -2406,7 +2406,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2481,7 +2481,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2511,7 +2511,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.handler.configuration.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.handler.configuration.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2568,7 +2568,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2610,7 +2610,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.task.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.task.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2643,7 +2643,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
