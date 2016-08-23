@@ -251,7 +251,7 @@
                                 <featureArtifactDef>
                                     org.apache.axis2.transport:org.apache.axis2.transport.jms.feature:${axis2-transports.wso2.version.1.1.1.wso2v2}
                                 </featureArtifactDef>
-								 <featureArtifactDef>
+                                <featureArtifactDef>
                                     org.apache.axis2.transport:org.apache.axis2.transport.jms.feature:${axis2-transports.wso2.version.1.1.1.wso2v6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2457,7 +2457,7 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.server.feature:${carbon.registry.version.4.4.8}
                                 </featureArtifactDef>
-								<featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.server.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
