@@ -2957,7 +2957,16 @@
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-manager.nested.category.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-manager.category.feature:${carbon.apimgt.version.6.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-worker.nested.category.feature:${carbon.apimgt.version.5.0.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-worker.category.feature:${carbon.apimgt.version.6.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.category.feature:${carbon.apimgt.version.6.0.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.nested.category.feature:${carbon.apimgt.version.5.0.3}
@@ -2969,6 +2978,9 @@
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.2.0.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.6.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.nested.category.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2978,24 +2990,12 @@
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.2.0.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.6.0.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.nested.category.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
 
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-manager.category.feature:${carbon.apimgt.version.6.0.4}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.gateway-worker.category.feature:${carbon.apimgt.version.6.0.4}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.keymanager.category.feature:${carbon.apimgt.version.6.0.4}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.publisher.category.feature:${carbon.apimgt.version.6.0.4}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.apimgt:org.wso2.apimgt.store.category.feature:${carbon.apimgt.version.6.0.4}
-                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.3.4}
