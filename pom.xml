@@ -153,6 +153,7 @@
         <carbon.metrics.version.1.2.2>1.2.2</carbon.metrics.version.1.2.2>
         <carbon.ml.version.1.0.2>1.0.2</carbon.ml.version.1.0.2>
         <carbon.ml.version.1.1.1>1.1.1</carbon.ml.version.1.1.1>
+        <carbon.ml.version.1.2.2>1.2.2</carbon.ml.version.1.2.2>
         <carbon.multitenancy.version.4.4.1>4.4.1</carbon.multitenancy.version.4.4.1>
         <carbon.multitenancy.version.4.4.3>4.4.3</carbon.multitenancy.version.4.4.3>
         <carbon.multitenancy.version.4.4.4>4.4.4</carbon.multitenancy.version.4.4.4>
@@ -2701,16 +2702,25 @@
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.feature:${carbon.ml.version.1.1.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.ml:org.wso2.carbon.ml.feature:${carbon.ml.version.1.2.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.mediator.predict.feature:${carbon.ml.version.1.0.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.mediator.predict.feature:${carbon.ml.version.1.1.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.ml:org.wso2.carbon.ml.mediator.predict.feature:${carbon.ml.version.1.2.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.siddhi.extension.feature:${carbon.ml.version.1.0.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.ml:org.wso2.carbon.ml.siddhi.extension.feature:${carbon.ml.version.1.1.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.ml:org.wso2.carbon.ml.siddhi.extension.feature:${carbon.ml.version.1.2.2}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
