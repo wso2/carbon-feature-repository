@@ -55,6 +55,7 @@
         <!-- Add in alphabetical order -->
         <analytics.shared.version.1.0.0>1.0.0</analytics.shared.version.1.0.0>
         <analytics.shared.version.1.0.1>1.0.1</analytics.shared.version.1.0.1>
+        <analytics.shared.version.1.0.2>1.0.2</analytics.shared.version.1.0.2>
         <axis2-transports.wso2.version.1.1.0.wso2v12>1.1.0-wso2v12</axis2-transports.wso2.version.1.1.0.wso2v12>
         <axis2-transports.wso2.version.1.1.0.wso2v13>1.1.0-wso2v13</axis2-transports.wso2.version.1.1.0.wso2v13>
         <axis2-transports.wso2.version.1.1.0.wso2v17>1.1.0-wso2v17</axis2-transports.wso2.version.1.1.0.wso2v17>
@@ -923,6 +924,9 @@
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.geolocation.udf.feature:${analytics.shared.version.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.geolocation.udf.feature:${analytics.shared.version.1.0.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.data.agents.log4j.feature:${analytics.shared.version.1.0.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -935,7 +939,13 @@
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.spark.common.udf.feature:${analytics.shared.version.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.spark.common.udf.feature:${analytics.shared.version.1.0.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.useragent.udf.feature:${analytics.shared.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.analytics.shared:org.wso2.analytics.shared.util.feature:${analytics.shared.version.1.0.2}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -3846,6 +3856,11 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.is:org.wso2.carbon.identity.workflow.category.feature:${product.is.version.5.2.0}
+                                </featureArtifactDef>
+
+                                <!-- Identity Server Analytics Feature  -->
+                                <featureArtifactDef>
+                                    org.wso2.analytics.is:org.wso2.analytics.is.feature:${product.is.version.5.2.0}
                                 </featureArtifactDef>
 
                             </featureArtifacts>
