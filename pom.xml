@@ -267,6 +267,7 @@
         <product.cep.version.4.0.0>4.0.0</product.cep.version.4.0.0>
         <product.cep.version.4.1.0>4.1.0</product.cep.version.4.1.0>
         <product.esb.version.4.9.0>4.9.0</product.esb.version.4.9.0>
+        <product.bps.version.3.6.0>3.6.0</product.bps.version.3.6.0>
         <product.greg.version.5.0.0>5.0.0</product.greg.version.5.0.0>
         <product.greg.version.5.0.1>5.0.1</product.greg.version.5.0.1>
         <product.greg.version.5.1.0>5.1.0</product.greg.version.5.1.0>
@@ -1272,6 +1273,10 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.unifiedendpoint.server.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+
+                                <featureArtifactDef>
+                                    org.wso2.bps:org.wso2.bps.multitenancy.dashboard.ui.feature:${product.bps.version.3.6.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
