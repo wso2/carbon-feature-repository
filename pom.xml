@@ -264,7 +264,6 @@
         <product.apim.version.2.0.0>2.0.0</product.apim.version.2.0.0>
         <product.apim.analytics.2.0.0>2.0.0</product.apim.analytics.2.0.0>
         <product.as.version.5.3.0>5.3.0</product.as.version.5.3.0>
-        <product.bps.version.3.6.0>3.6.0</product.bps.version.3.6.0>
         <product.cep.version.4.0.0>4.0.0</product.cep.version.4.0.0>
         <product.cep.version.4.1.0>4.1.0</product.cep.version.4.1.0>
         <product.esb.version.4.9.0>4.9.0</product.esb.version.4.9.0>
@@ -1273,10 +1272,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.unifiedendpoint.server.feature:${carbon.business.process.version.4.4.10}
-                                </featureArtifactDef>
-
-                                <featureArtifactDef>
-                                    org.wso2.bps:org.wso2.bps.multitenancy.dashboard.ui.feature:${product.bps.version.3.6.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
