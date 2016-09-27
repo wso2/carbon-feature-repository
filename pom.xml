@@ -90,6 +90,7 @@
         <carbon.business.process.version.4.4.4>4.4.4</carbon.business.process.version.4.4.4>
         <carbon.business.process.version.4.4.7>4.4.7</carbon.business.process.version.4.4.7>
         <carbon.business.process.version.4.4.9>4.4.9</carbon.business.process.version.4.4.9>
+        <carbon.business.process.version.4.4.10>4.4.10</carbon.business.process.version.4.4.10>
         <carbon.commons.version.4.4.6>4.4.6</carbon.commons.version.4.4.6>
         <carbon.commons.version.4.4.7>4.4.7</carbon.commons.version.4.4.7>
         <carbon.commons.version.4.4.8>4.4.8</carbon.commons.version.4.4.8>
@@ -1181,6 +1182,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpel.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpel.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpmn.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1191,6 +1195,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpmn.feature:${carbon.business.process.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpmn.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.humantask.feature:${carbon.business.process.version.4.4.0}
@@ -1205,6 +1212,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.humantask.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.humantask.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.bpel.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1217,6 +1227,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.bpel.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.bpel.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.humantask.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1227,6 +1240,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.humantask.feature:${carbon.business.process.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.application.mgt.humantask.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.feature:${carbon.business.process.version.4.4.0}
@@ -1244,6 +1260,12 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.feature:${carbon.business.process.version.4.4.9}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.ui.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.analytics.publisher.feature:${carbon.business.process.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1253,7 +1275,13 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.analytics.publisher.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpel.analytics.publisher.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.server.feature:${carbon.business.process.version.4.4.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.attachment.mgt.server.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.feature:${carbon.business.process.version.4.4.0}
@@ -1268,7 +1296,13 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpel.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.server.feature:${carbon.business.process.version.4.4.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpel.server.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.ui.feature:${carbon.business.process.version.4.4.0}
@@ -1283,6 +1317,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpel.ui.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpel.ui.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpmn.analytics.publisher.feature:${carbon.business.process.version.4.4.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1290,6 +1327,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpmn.analytics.publisher.feature:${carbon.business.process.version.4.4.7}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpmn.analytics.publisher.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpmn.feature:${carbon.business.process.version.4.4.0}
@@ -1304,6 +1344,9 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.bpmn.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.bpmn.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.humantask.feature:${carbon.business.process.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1316,7 +1359,13 @@
                                     org.wso2.carbon.business-process:org.wso2.carbon.humantask.feature:${carbon.business.process.version.4.4.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.humantask.feature:${carbon.business.process.version.4.4.10}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.humantask.server.feature:${carbon.business.process.version.4.4.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.humantask.server.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.unifiedendpoint.server.feature:${carbon.business.process.version.4.4.0}
@@ -1332,6 +1381,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.unifiedendpoint.server.feature:${carbon.business.process.version.4.4.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.business-process:org.wso2.carbon.unifiedendpoint.server.feature:${carbon.business.process.version.4.4.10}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
