@@ -104,6 +104,7 @@
         <carbon.data.version.4.3.1>4.3.1</carbon.data.version.4.3.1>
         <carbon.data.version.4.3.4>4.3.4</carbon.data.version.4.3.4>
         <carbon.data.version.4.3.5>4.3.5</carbon.data.version.4.3.5>
+        <carbon.data.version.4.4.0>4.4.0</carbon.data.version.4.4.0>
         <carbon.deployment.version.4.4.1>4.4.1</carbon.deployment.version.4.4.1>
         <carbon.deployment.version.4.5.2>4.5.2</carbon.deployment.version.4.5.2>
         <carbon.deployment.version.4.5.3>4.5.3</carbon.deployment.version.4.5.3>
@@ -1736,22 +1737,43 @@
                                     org.wso2.carbon.data:org.wso2.carbon.cassandra-jdbc-1.2.5.server.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.cassandra-jdbc-1.2.5.server.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.feature:${carbon.data.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.server.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.server.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.ui.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.ui.feature:${carbon.data.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.task.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.task.server.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.server.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices.task.ui.feature:${carbon.data.version.4.3.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices.task.ui.feature:${carbon.data.version.4.4.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.datasource.reader.hadoop.server.feature:${carbon.data.version.4.3.1}
@@ -1760,10 +1782,19 @@
                                     org.wso2.carbon.data:org.wso2.carbon.datasource.reader.hadoop.server.feature:${carbon.data.version.4.3.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.hadoop.server.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.3.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.3.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.datasource.reader.cassandra.server.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dbconsole.ui.feature:${carbon.data.version.4.4.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -3947,6 +3978,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.3.4}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.4.0}
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.javaee-6-web-profile.category.feature:${carbon.deployment.version.4.5.3}
@@ -4234,6 +4268,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.dataservices-hosting.category</id>
                                             <version>${carbon.data.version.4.3.4}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.dataservices-hosting.category</id>
+                                            <version>${carbon.data.version.4.4.0}</version>
                                         </catFeature>
                                     </features>
                                 </category>
