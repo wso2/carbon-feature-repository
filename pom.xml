@@ -630,13 +630,13 @@
                                     org.wso2.analytics.apim:org.wso2.das.styles.feature:${product.apim.analytics.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.analytics.esb:org.wso2.analytics.esb.feature:${product.esb.version.5.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.das:org.wso2.das.multitenancy.dashboard.ui.feature:${das.release.version.3.1.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.das:org.wso2.das.styles.feature:${das.release.version.3.1.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.analytics.esb:org.wso2.analytics.esb.feature:${product.esb.version.5.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.styles.feature:${product.as.version.5.3.0}
