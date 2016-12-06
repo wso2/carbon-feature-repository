@@ -2917,6 +2917,9 @@
                                     org.wso2.carbon.mediation:org.wso2.carbon.event.sink.feature:${carbon.mediation.version.4.5.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.mediation:org.wso2.carbon.event.sink.feature:${carbon.mediation.version.4.6.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.event.sink.feature:${carbon.mediation.version.4.6.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
