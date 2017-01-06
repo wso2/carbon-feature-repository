@@ -58,6 +58,7 @@
         <analytics.shared.version.1.0.2>1.0.2</analytics.shared.version.1.0.2>
         <axis2-transports.wso2.version.1.1.0.wso2v12>1.1.0-wso2v12</axis2-transports.wso2.version.1.1.0.wso2v12>
         <axis2-transports.wso2.version.1.1.0.wso2v13>1.1.0-wso2v13</axis2-transports.wso2.version.1.1.0.wso2v13>
+        <axis2-transports.wso2.version.1.1.0.wso2v15>1.1.0-wso2v15</axis2-transports.wso2.version.1.1.0.wso2v15>
         <axis2-transports.wso2.version.1.1.0.wso2v17>1.1.0-wso2v17</axis2-transports.wso2.version.1.1.0.wso2v17>
         <axis2-transports.wso2.version.1.1.1.wso2v2>1.1.1-wso2v2</axis2-transports.wso2.version.1.1.1.wso2v2>
         <axis2-transports.wso2.version.1.1.1.wso2v6>1.1.1-wso2v6</axis2-transports.wso2.version.1.1.1.wso2v6>
@@ -85,6 +86,7 @@
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
         <carbon.apimgt.version.5.0.3>5.0.3</carbon.apimgt.version.5.0.3>
         <carbon.apimgt.version.6.0.4>6.0.4</carbon.apimgt.version.6.0.4>
+        <carbon.appmgt.version.1.3.3>1.3.3</carbon.appmgt.version.1.3.3>
         <carbon.business.process.version.4.4.0>4.4.0</carbon.business.process.version.4.4.0>
         <carbon.business.process.version.4.4.3>4.4.3</carbon.business.process.version.4.4.3>
         <carbon.business.process.version.4.4.4>4.4.4</carbon.business.process.version.4.4.4>
@@ -127,6 +129,7 @@
         <carbon.governance.version.4.5.8>4.5.8</carbon.governance.version.4.5.8>
         <carbon.governance.version.4.5.9>4.5.9</carbon.governance.version.4.5.9>
         <carbon.governance.version.4.6.1>4.6.1</carbon.governance.version.4.6.1>
+        <carbon.governance.version.4.6.2>4.6.2</carbon.governance.version.4.6.2>
         <carbon.governance.version.4.6.4>4.6.4</carbon.governance.version.4.6.4>
         <carbon.governance.version.4.7.1>4.7.1</carbon.governance.version.4.7.1>
         <carbon.governance.ext.version.4.4.7>4.4.7</carbon.governance.ext.version.4.4.7>
@@ -150,6 +153,7 @@
         <carbon.kernel.version.4.4.9>4.4.9</carbon.kernel.version.4.4.9>
         <carbon.mediation.version.4.4.10>4.4.10</carbon.mediation.version.4.4.10>
         <carbon.mediation.version.4.5.1>4.5.1</carbon.mediation.version.4.5.1>
+        <carbon.mediation.version.4.6.0>4.6.0</carbon.mediation.version.4.6.0>
         <carbon.mediation.version.4.6.1>4.6.1</carbon.mediation.version.4.6.1>
         <carbon.mediation.version.4.6.6>4.6.6</carbon.mediation.version.4.6.6>
         <carbon.mediation.version.4.6.9>4.6.9</carbon.mediation.version.4.6.9>
@@ -177,6 +181,7 @@
         <carbon.registry.version.4.4.9>4.4.9</carbon.registry.version.4.4.9>
         <carbon.registry.version.4.5.0>4.5.0</carbon.registry.version.4.5.0>
         <carbon.registry.version.4.5.2>4.5.2</carbon.registry.version.4.5.2>
+        <carbon.registry.version.4.5.3>4.5.3</carbon.registry.version.4.5.3>
         <carbon.registry.version.4.5.4>4.5.4</carbon.registry.version.4.5.4>
         <carbon.registry.version.4.5.5>4.5.5</carbon.registry.version.4.5.5>
         <carbon.registry.version.4.5.6>4.5.6</carbon.registry.version.4.5.6>
@@ -188,8 +193,11 @@
         <carbon.social.version.2.4.6>2.4.6</carbon.social.version.2.4.6>
         <cipher.tool.version.1.0.0v3>1.0.0-wso2v3</cipher.tool.version.1.0.0v3>
         <das.release.version.3.1.0>3.1.0</das.release.version.3.1.0>
+        <email.feature.version.1.0.0>1.0.0</email.feature.version.1.0.0>
         <email.feature.version.1.2.0>1.2.0</email.feature.version.1.2.0>
         <email.feature.version.1.5.3>1.5.3</email.feature.version.1.5.3>
+        <es.feature.version.1.0.0>1.0.0</es.feature.version.1.0.0>
+        <es.feature.version.1.4.5>1.4.5</es.feature.version.1.4.5>
         <es.feature.version.2.3.0>2.3.0</es.feature.version.2.3.0>
         <es.feature.version.2.3.4>2.3.4</es.feature.version.2.3.4>
         <es.feature.version.2.3.8>2.3.8</es.feature.version.2.3.8>
@@ -345,6 +353,9 @@
                                     org.apache.axis2.transport:org.apache.axis2.transport.mail.feature:${axis2-transports.wso2.version.1.1.0.wso2v13}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.apache.axis2.transport:org.apache.axis2.transport.mail.feature:${axis2-transports.wso2.version.1.1.0.wso2v15}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.apache.axis2.transport:org.apache.axis2.transport.mail.feature:${axis2-transports.wso2.version.1.1.0.wso2v17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -384,6 +395,9 @@
                                     org.apache.axis2.transport:org.apache.axis2.transport.xmpp.feature:${axis2-transports.wso2.version.1.1.1.wso2v6}
                                 </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    caramel:caramel.feature:${caramel.feature.version.1.0.1}
+                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:caramel.feature:${caramel.feature.version.1.0.1}
                                 </featureArtifactDef>
@@ -425,6 +439,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:carbon.feature:${carbon.feature.version.1.5.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.jaggeryjs.modules:email.feature:${email.feature.version.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.jaggeryjs.modules:email.feature:${email.feature.version.1.2.0}
@@ -1193,6 +1210,30 @@
                                     org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:${carbon.apimgt.version.6.0.4}
                                 </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.core.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.gateway.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.mdm.wso2emm.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.mobile.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.publisher.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.services.api.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.carbon.appmgt.store.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.business-process:org.wso2.carbon.application.deployer.bpel.feature:${carbon.business.process.version.4.4.0}
@@ -2032,6 +2073,9 @@
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.lifecycle.management.feature:${carbon.governance.version.4.6.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.lifecycle.management.feature:${carbon.governance.version.4.6.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.lifecycle.management.feature:${carbon.governance.version.4.6.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2047,6 +2091,9 @@
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.feature:${carbon.governance.version.4.6.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.feature:${carbon.governance.version.4.6.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.feature:${carbon.governance.version.4.6.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -2054,6 +2101,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.server.feature:${carbon.governance.version.4.5.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.governance.metadata.server.feature:${carbon.governance.version.4.6.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.governance.notifications.configuration.feature:${carbon.governance.version.4.5.8}
@@ -2083,7 +2133,13 @@
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.6.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.6.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.feature:${carbon.governance.version.4.6.4}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.server.feature:${carbon.governance.version.4.6.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.governance:org.wso2.carbon.registry.extensions.server.feature:${carbon.governance.version.4.6.4}
@@ -3014,6 +3070,9 @@
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.initializer.feature:${carbon.mediation.version.4.5.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.mediation:org.wso2.carbon.mediation.initializer.feature:${carbon.mediation.version.4.6.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.initializer.feature:${carbon.mediation.version.4.6.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3054,6 +3113,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.ui.feature:${carbon.mediation.version.4.5.1}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.mediation:org.wso2.carbon.mediation.ui.feature:${carbon.mediation.version.4.6.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediation.ui.feature:${carbon.mediation.version.4.6.6}
@@ -3341,6 +3403,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.associations.dependencies.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3365,6 +3430,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.community.features.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.community.features.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.community.features.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3387,6 +3455,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.feature:${carbon.registry.version.4.5.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.server.feature:${carbon.registry.version.4.5.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.contentsearch.feature:${carbon.registry.version.4.5.4}
@@ -3431,6 +3502,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:${carbon.registry.version.4.5.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3465,6 +3539,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.handler.configuration.feature:${carbon.registry.version.4.5.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.handler.configuration.feature:${carbon.registry.version.4.5.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.handler.configuration.feature:${carbon.registry.version.4.5.6}
@@ -3530,6 +3607,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.5.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.resource.properties.feature:${carbon.registry.version.4.5.4}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3566,6 +3646,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.social.feature:${carbon.registry.version.4.6.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.task.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.task.feature:${carbon.registry.version.4.4.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3594,6 +3677,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.uddi.feature:${carbon.registry.version.4.6.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.4.5.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.4.4.5}
@@ -3632,6 +3718,9 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.governance.feature:${carbon.registry.version.4.5.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.governance.feature:${carbon.registry.version.4.5.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.governance.feature:${carbon.registry.version.4.5.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -3657,6 +3746,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version.4.5.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version.4.5.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ws.feature:${carbon.registry.version.4.5.6}
@@ -3742,10 +3834,13 @@
                                     org.wso2.carbon.store:org.wso2.carbon.es.feature:${es.feature.version.2.3.9}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.0}
+                                    org.wso2.carbon.store:org.wso2.carbon.es.feature:${es.feature.version.2.4.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.store:org.wso2.carbon.es.feature:${es.feature.version.2.4.6}
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.1.4.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.4}
@@ -3755,6 +3850,9 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.9}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.store.feature:${es.feature.version.1.4.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.0}
@@ -3851,6 +3949,27 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:utils.feature:${es.feature.version.2.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:store.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:login.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:event.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:registration.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:permission.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:sso.feature:${es.feature.version.1.0.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.store.modules:claims.feature:${es.feature.version.1.0.0}
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
@@ -4018,6 +4137,21 @@
                                     org.wso2.carbon.apimgt:org.wso2.apimgt.store.nested.category.feature:${carbon.apimgt.version.5.0.3}
                                 </featureArtifactDef>
 
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.appmgt.gateway.manager.category.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.appmgt.gateway.worker.category.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.appmgt.idp.category.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.appmgt.publisher.category.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.appmgt:org.wso2.appmgt.store.category.feature:${carbon.appmgt.version.1.3.3}
+                                </featureArtifactDef>
 
                                 <featureArtifactDef>
                                     org.wso2.carbon.data:org.wso2.carbon.dataservices-hosting.category.feature:${carbon.data.version.4.3.4}
@@ -4250,6 +4384,71 @@
                                     </features>
                                 </category>
 
+                                <!--App Gateway Manager category -->
+                                <category>
+                                    <id>org.wso2.appmgt.gateway.manager.category.feature.category</id>
+                                    <label>App Gateway Manager</label>
+                                    <description>This category contains App Manager Gateway Manager features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.appmgt.gateway.manager.category</id>
+                                            <version>${carbon.appmgt.version.1.3.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--App Gateway Worker category -->
+                                <category>
+                                    <id>org.wso2.appmgt.gateway.worker.category.feature.category</id>
+                                    <label>App Gateway Worker</label>
+                                    <description>This category contains App Manager Gateway Worker
+                                        features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.appmgt.gateway.worker.category</id>
+                                            <version>${carbon.appmgt.version.1.3.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--App IDP category -->
+                                <category>
+                                    <id>org.wso2.appmgt.idp.category.feature.category</id>
+                                    <label>App IDP</label>
+                                    <description>This category contains App Manager IDP features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.appmgt.idp.category</id>
+                                            <version>${carbon.appmgt.version.1.3.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--App Publisher category -->
+                                <category>
+                                    <id>org.wso2.appmgt.publisher.category.feature.category</id>
+                                    <label>App Publisher</label>
+                                    <description>This category contains App Publisher features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.appmgt.publisher.category</id>
+                                            <version>${carbon.appmgt.version.1.3.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
+
+                                <!--App Store category -->
+                                <category>
+                                    <id>org.wso2.appmgt.store.category.feature.category</id>
+                                    <label>App Store</label>
+                                    <description>This category contains App Store features</description>
+                                    <features>
+                                        <catFeature>
+                                            <id>org.wso2.appmgt.store.category</id>
+                                            <version>${carbon.appmgt.version.1.3.3}</version>
+                                        </catFeature>
+                                    </features>
+                                </category>
 
                                 <!--Application runtime environment category-->
                                 <category>
