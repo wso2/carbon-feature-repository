@@ -26,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.wso2.carbon.feature.repository</groupId>
     <artifactId>feature-repository</artifactId>
-    <version>4.4.13-SNAPSHOT</version>
+    <version>4.4.13</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Feature Repository</name>
     <url>http://wso2.org</url>
@@ -48,7 +48,7 @@
         <url>https://github.com/wso2/carbon-feature-repository.git</url>
         <developerConnection>scm:git:https://github.com/wso2/carbon-feature-repository.git</developerConnection>
         <connection>scm:git:https://github.com/wso2/carbon-feature-repository.git</connection>
-        <tag>HEAD</tag>
+        <tag>v4.4.13</tag>
     </scm>
 
     <properties>
