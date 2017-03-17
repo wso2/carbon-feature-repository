@@ -56,7 +56,6 @@
         <analytics.shared.version.1.0.0>1.0.0</analytics.shared.version.1.0.0>
         <analytics.shared.version.1.0.1>1.0.1</analytics.shared.version.1.0.1>
         <analytics.shared.version.1.0.2>1.0.2</analytics.shared.version.1.0.2>
-        <analytics.shared.version.1.0.3>1.0.3</analytics.shared.version.1.0.3>
         <axis2-transports.wso2.version.1.1.0.wso2v12>1.1.0-wso2v12</axis2-transports.wso2.version.1.1.0.wso2v12>
         <axis2-transports.wso2.version.1.1.0.wso2v13>1.1.0-wso2v13</axis2-transports.wso2.version.1.1.0.wso2v13>
         <axis2-transports.wso2.version.1.1.0.wso2v15>1.1.0-wso2v15</axis2-transports.wso2.version.1.1.0.wso2v15>
@@ -83,7 +82,6 @@
         <carbon.analytics.version.1.0.3>1.0.3</carbon.analytics.version.1.0.3>
         <carbon.analytics.version.1.1.3>1.1.3</carbon.analytics.version.1.1.3>
         <carbon.analytics.version.1.2.6>1.2.6</carbon.analytics.version.1.2.6>
-        <carbon.analytics.version.1.3.0>1.3.0</carbon.analytics.version.1.3.0>
         <carbon.apimgt.feature.version.1.3.3>1.3.3</carbon.apimgt.feature.version.1.3.3>
         <carbon.apimgt.version.2.0.0>2.0.0</carbon.apimgt.version.2.0.0>
         <carbon.apimgt.version.2.0.1>2.0.1</carbon.apimgt.version.2.0.1>
@@ -327,7 +325,6 @@
         <process.feature.version.1.5.5>1.5.5</process.feature.version.1.5.5>
         <product.apim.version.2.0.0>2.0.0</product.apim.version.2.0.0>
         <product.apim.analytics.2.0.0>2.0.0</product.apim.analytics.2.0.0>
-        <product.apim.analytics.2.1.1>2.1.1</product.apim.analytics.2.1.1>
         <product.as.version.5.3.0>5.3.0</product.as.version.5.3.0>
         <product.cep.version.4.0.0>4.0.0</product.cep.version.4.0.0>
         <product.cep.version.4.1.0>4.1.0</product.cep.version.4.1.0>
@@ -701,13 +698,7 @@
                                     org.wso2.analytics.apim:org.wso2.analytics.apim.feature:${product.apim.analytics.2.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.analytics.apim:org.wso2.analytics.apim.feature:${product.apim.analytics.2.1.1}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.analytics.apim:org.wso2.analytics.apim.spark.feature:${product.apim.analytics.2.0.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.analytics.apim:org.wso2.analytics.apim.spark.feature:${product.apim.analytics.2.1.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.analytics.apim:org.wso2.das.multitenancy.dashboard.ui.feature:${product.apim.analytics.2.0.0}
@@ -809,9 +800,6 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.activitydashboard.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.activitydashboard.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.api.client.feature:${carbon.analytics.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -821,16 +809,10 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.api.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.api.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.feature:${carbon.analytics.version.1.2.6}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.core.server.feature:${carbon.analytics.version.1.0.3}
@@ -842,9 +824,6 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.dashboard.ui.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.dashboard.ui.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.feature:${carbon.analytics.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -854,22 +833,13 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.template.deployer.server.feature:${carbon.analytics.version.1.2.6}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventsink.template.deployer.server.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventtable.feature:${carbon.analytics.version.1.1.3}
@@ -878,25 +848,16 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventtable.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.eventtable.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.jsservice.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.jsservice.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.jsservice.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.messageconsole.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.messageconsole.feature:${carbon.analytics.version.1.2.6}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.messageconsole.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.message.tracer.handler.feature:${carbon.analytics.common.version.1.0.1}
@@ -911,19 +872,10 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.restapi.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.restapi.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.ui.feature:${carbon.analytics.version.1.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.ui.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.server.feature:${carbon.analytics.version.1.0.3}
@@ -932,13 +884,7 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.server.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.server.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.template.deployer.feature:${carbon.analytics.version.1.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.template.deployer.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.stream.persistence.server.feature:${carbon.analytics.version.1.1.3}
@@ -947,16 +893,10 @@
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.stream.persistence.server.feature:${carbon.analytics.version.1.2.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.stream.persistence.server.feature:${carbon.analytics.version.1.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.webservice.feature:${carbon.analytics.version.1.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics:org.wso2.carbon.analytics.webservice.feature:${carbon.analytics.version.1.2.6}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics:org.wso2.carbon.analytics.webservice.feature:${carbon.analytics.version.1.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.common.jmx.agent.feature:${carbon.analytics-common.version.5.0.3}
@@ -971,9 +911,6 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.common.jmx.agent.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.common.jmx.agent.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.dashboard.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -983,13 +920,7 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.dashboard.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.dashboard.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.template.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.template.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datapublisher.feature:${carbon.analytics-common.version.5.0.3}
@@ -1025,9 +956,6 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datareceiver.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.datareceiver.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1038,9 +966,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.application.deployer.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email.server.feature:${carbon.analytics.common.version.5.0.2}
@@ -1056,9 +981,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email.server.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email.server.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.jms.server.feature:${carbon.analytics-common.version.5.1.0}
@@ -1100,21 +1022,12 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.chart.template.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.chart.template.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.rest.provider.template.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.rest.provider.template.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.realtime.provider.template.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
 
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.gadget.realtime.provider.template.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.server.feature:${carbon.analytics-common.version.5.1.0}
                                 </featureArtifactDef>
@@ -1123,9 +1036,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.template.manager.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.template.manager.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.dashboard.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
@@ -1146,9 +1056,6 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.streamdefn.filesystem.server.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.streamdefn.filesystem.server.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.core.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1159,9 +1066,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.core.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.core.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.commons.feature:${carbon.analytics-common.version.5.0.3}
@@ -1176,9 +1080,6 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.commons.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.processor.manager.commons.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.aggregate.feature:${carbon.analytics-common.version.5.1.1}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1191,19 +1092,13 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics-common.version.5.0.10}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics-common.version.5.1.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics-common.version.5.1.7}
+                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.feature:${carbon.analytics-common.version.5.1.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.publisher.template.deployer.server.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.feature:${carbon.analytics-common.version.5.0.3}
@@ -1218,13 +1113,7 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.receiver.template.deployer.server.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.tracer.feature:${carbon.analytics-common.version.5.0.3}
@@ -1239,9 +1128,6 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.tracer.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.tracer.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.statistics.feature:${carbon.analytics-common.version.5.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -1252,9 +1138,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.statistics.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.statistics.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.stream.feature:${carbon.analytics-common.version.5.0.3}
@@ -1275,19 +1158,10 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.event.stream.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.event.stream.template.deployer.server.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.gadget.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.gadget.template.deployer.server.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.jaggeryapp.template.deployer.server.feature:${carbon.analytics.common.version.5.1.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.jaggeryapp.template.deployer.server.feature:${carbon.analytics-common.version.5.1.7}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics.common.version.5.0.2}
@@ -1299,16 +1173,10 @@
                                     org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics.common.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics-common:org.wso2.carbon.spark.commons.feature:${carbon.analytics-common.version.5.1.7}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.geolocation.udf.feature:${analytics.shared.version.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.geolocation.udf.feature:${analytics.shared.version.1.0.2}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.geolocation.udf.feature:${analytics.shared.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.data.agents.log4j.feature:${analytics.shared.version.1.0.1}
@@ -1326,13 +1194,7 @@
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.spark.common.udf.feature:${analytics.shared.version.1.0.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.spark.common.udf.feature:${analytics.shared.version.1.0.3}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.useragent.udf.feature:${analytics.shared.version.1.0.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.analytics.shared:org.wso2.carbon.analytics.shared.useragent.udf.feature:${analytics.shared.version.1.0.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.analytics.shared:org.wso2.analytics.shared.util.feature:${analytics.shared.version.1.0.2}
