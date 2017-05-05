@@ -2907,7 +2907,7 @@
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.server.feature:${identity.carbon.auth.saml2.version.5.1.3}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.server.feature:${identity.carbon.auth.saml2.version.5.2.0}
+                                    org.wso2.carbon.identity.carbon.auth.saml2:org.wso2.carbon.identity.authenticator.saml2.sso.server.feature:${identity.carbon.auth.saml2.version.5.2.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity:org.wso2.carbon.identity.authenticator.saml2.sso.ui.feature:${carbon.identity.version.4.5.6}
