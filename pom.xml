@@ -4822,6 +4822,12 @@
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.9}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.6}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.12}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.store.feature:${es.feature.version.1.4.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -4829,12 +4835,6 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.6}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.12}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.4}
