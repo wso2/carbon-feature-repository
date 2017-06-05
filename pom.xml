@@ -224,6 +224,7 @@
         <email.feature.version.1.5.5>1.5.5</email.feature.version.1.5.5>
         <es.feature.version.1.0.0>1.0.0</es.feature.version.1.0.0>
         <es.feature.version.1.4.5>1.4.5</es.feature.version.1.4.5>
+        <es.feature.version.1.5.0>1.5.0</es.feature.version.1.5.0>
         <es.feature.version.2.3.0>2.3.0</es.feature.version.2.3.0>
         <es.feature.version.2.3.4>2.3.4</es.feature.version.2.3.4>
         <es.feature.version.2.3.8>2.3.8</es.feature.version.2.3.8>
@@ -4806,6 +4807,9 @@
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.1.4.5}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.1.5.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
@@ -4818,16 +4822,19 @@
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.3.9}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.store:org.wso2.store.feature:${es.feature.version.1.4.5}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.0}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.6}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:org.wso2.carbon.social.feature:${es.feature.version.2.4.12}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.store.feature:${es.feature.version.1.4.5}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:org.wso2.store.feature:${es.feature.version.1.5.0}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.store:permission.feature:${es.feature.version.2.3.4}
