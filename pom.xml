@@ -403,7 +403,7 @@
         <product.is.version.5.2.0>5.2.0</product.is.version.5.2.0>
         <product.is.version.5.3.0>5.3.0</product.is.version.5.3.0>
         <product.is.version.5.4.0>5.4.0</product.is.version.5.4.0>
-        <identity.feature.category.1.0.0>1.0.0</identity.feature.category.1.0.0>
+        <identity.feature.category.1.0.17>1.0.17</identity.feature.category.1.0.17>
         <product.mb.version.3.0.0>3.0.0</product.mb.version.3.0.0>
         <product.mb.version.3.1.0>3.1.0</product.mb.version.3.1.0>
         <product.ml.version.1.0.0>1.0.0</product.ml.version.1.0.0>
@@ -5675,53 +5675,54 @@
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.is:org.wso2.carbon.identity.workflow.category.feature:${product.is.version.5.2.0}
-                                </featureArtifactDef> <featureArtifactDef>
-                                org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.agents.category.feature:${identity.feature.category.1.0.0}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.authenticators.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.agents.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.authorization.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.authenticators.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.authentication.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.authorization.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.authenticators.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.authentication.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.provisioning.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.authenticators.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.provisioning.connectors.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.provisioning.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.keystore.mgt.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.inbound.provisioning.connectors.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.notification.mgt.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.keystore.mgt.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.authentication.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.notification.mgt.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.authenticators.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.authentication.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.provisioning.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.authenticators.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.provisioning.connectors.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.provisioning.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.sts.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.outbound.provisioning.connectors.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.user.mgt.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.sts.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.workflow.category.feature:${identity.feature.category.1.0.0}
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.user.mgt.category.feature:${identity.feature.category.1.0.17}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.feature.category:org.wso2.carbon.identity.workflow.category.feature:${identity.feature.category.1.0.17}
                                 </featureArtifactDef>
 
                                 <!-- Identity Server Analytics Feature  -->
@@ -6032,6 +6033,9 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.agents.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>                                      <catFeature>
+                                            <id>org.wso2.carbon.identity.agents.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6049,6 +6053,9 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.authenticators.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.authenticators.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6067,6 +6074,10 @@
                                             <id>org.wso2.carbon.identity.authorization.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.authorization.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6083,6 +6094,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.inbound.authentication.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.inbound.authentication.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6101,6 +6116,10 @@
                                             <id>org.wso2.carbon.identity.inbound.authenticators.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.inbound.authenticators.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6117,6 +6136,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.inbound.provisioning.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.inbound.provisioning.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6137,6 +6160,10 @@
                                             <id>org.wso2.carbon.identity.inbound.provisioning.connectors.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.inbound.provisioning.connectors.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6153,6 +6180,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.keystore.mgt.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.keystore.mgt.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6171,6 +6202,10 @@
                                             <id>org.wso2.carbon.identity.notification.mgt.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.notification.mgt.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6187,6 +6222,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.outbound.authentication.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.outbound.authentication.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6205,6 +6244,10 @@
                                             <id>org.wso2.carbon.identity.outbound.authenticators.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.outbound.authenticators.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6221,6 +6264,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.outbound.provisioning.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.outbound.provisioning.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6241,6 +6288,10 @@
                                             <id>org.wso2.carbon.identity.outbound.provisioning.connectors.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.outbound.provisioning.connectors.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6257,6 +6308,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.sts.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.sts.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
@@ -6275,6 +6330,10 @@
                                             <id>org.wso2.carbon.identity.user.mgt.category</id>
                                             <version>${product.is.version.5.2.0}</version>
                                         </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.user.mgt.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
+                                        </catFeature>
                                     </features>
                                 </category>
 
@@ -6291,6 +6350,10 @@
                                         <catFeature>
                                             <id>org.wso2.carbon.identity.workflow.category</id>
                                             <version>${product.is.version.5.2.0}</version>
+                                        </catFeature>
+                                        <catFeature>
+                                            <id>org.wso2.carbon.identity.workflow.category</id>
+                                            <version>${identity.feature.category.1.0.17}</version>
                                         </catFeature>
                                     </features>
                                 </category>
